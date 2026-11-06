@@ -4,7 +4,13 @@
 
 > ⚠️ **Progetto personale, non ufficiale e non collegato a MG Motor né a SAIC.** È un ausilio che può sbagliare e sostituisce un'applicazione di serie dell'auto. Prima di installarlo leggi le [**Avvertenze e responsabilità**](DISCLAIMER.md): installandolo le accetti.
 >
-> 🔬 **Versione di prova.** È stata provata su una sola auto: **MG4 Electric Luxury MY23**, unità FICM, firmware R67, Android 9. Su altre versioni non so come si comporta.
+> 🔬 **Versione di prova.** È stata provata su una sola configurazione: **MG4 Electric Luxury MY23, unità FICM, firmware SWI68 R67, Android 9**. Su altre versioni non so come si comporta.
+>
+> | Firmware | Stato |
+> |---|---|
+> | **SWI68 R67** | ✅ **Testato** |
+> | **SWI133** | ⚠️ **Non testato.** L'analisi del firmware non mostra differenze rilevanti (stessa base Android 9, stessa app 360 di serie, stessa firma di sistema), ma solo una prova sull'auto lo conferma |
+> | Altri | ❓ Sconosciuto |
 
 ## Cosa fa
 - **Vista 360°** costruita dalle 4 telecamere, accanto alla vista di una telecamera alla volta o alla **vista 3D** con il modello dell'auto.
