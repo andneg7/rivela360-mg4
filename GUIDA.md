@@ -32,10 +32,10 @@ Dopo aver riattivato la 360 di serie puoi disinstallare l'app dal gestore applic
 ## Vista della telecamera
 In *Impostazioni › Telecamera › Vista* ci sono tre scelte:
 - **Originale** (di serie): l'immagine intera della telecamera, con le linee curve dell'obiettivo e gli angoli neri.
-- **Corretta**: le linee tornano dritte, ma l'angolo di visione è più stretto: ai lati e in alto si vede meno.
-- **Originale piena**: l'immagine originale ingrandita per riempire lo schermo: spariscono gli angoli neri, ma si perde circa un quarto dei bordi.
+- **Corretta**: le linee tornano dritte, ma l'angolo di visione è più stretto: circa 125° in orizzontale invece di circa 185°; in verticale la perdita è piccola.
+- **Originale piena**: l'immagine originale ingrandita per riempire lo schermo: spariscono gli angoli neri. L'angolo scende a circa 140° in orizzontale (da circa 185°) e a circa 95° in verticale (da circa 125°).
 
-Quando scegli *Corretta* o *Originale piena* l'app mostra un avviso con un disegno e chiede conferma.
+Quando scegli *Corretta* o *Originale piena* l'app mostra un avviso con un disegno e chiede conferma. I valori sono calcolati dalla calibrazione della telecamera, non misurati in auto.
 
 ## Aggiornare
 - *Impostazioni › Aggiornamenti › Cerca aggiornamenti*: l'app controlla questa repository e propone la nuova versione.
