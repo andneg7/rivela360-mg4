@@ -2,20 +2,20 @@
   "format": 1,
   "channels": {
     "stabile": {
-      "versionCode": 21103,
-      "versionName": "2.11 beta 3",
-      "file": "releases/Rivela360-v2.11-beta3.apk",
-      "sha256": "bf8f706724baa212d13e587d2d6f271b1f5d7d220546c20d7d4dfcc4b68bc241",
-      "size": 480519,
+      "versionCode": 21104,
+      "versionName": "2.11 beta 4",
+      "file": "releases/Rivela360-v2.11-beta4.apk",
+      "sha256": "f812e69d44b5ce22da96c4f11bc772e11b142019ee719590e1fc6bff9248f4af",
+      "size": 484615,
       "notes": "Versione di prova di Rivela 360: vista 360°, vista 3D, linee d'ingombro, sensori, avviso traffico trasversale, modalità autolavaggio, registrazione. Leggi le avvertenze."
     },
     "beta": {
-      "versionCode": 21103,
-      "versionName": "2.11 beta 3",
-      "file": "releases/Rivela360-v2.11-beta3.apk",
-      "sha256": "bf8f706724baa212d13e587d2d6f271b1f5d7d220546c20d7d4dfcc4b68bc241",
-      "size": 480519,
-      "notes": "Beta 3: di nuovo la scelta dello stile 1/2 delle linee guida anche nella vista 360°; pianale del modello 3D corretto."
+      "versionCode": 21104,
+      "versionName": "2.11 beta 4",
+      "file": "releases/Rivela360-v2.11-beta4.apk",
+      "sha256": "f812e69d44b5ce22da96c4f11bc772e11b142019ee719590e1fc6bff9248f4af",
+      "size": 484615,
+      "notes": "Beta 4: avviso con disegno quando scegli «Corretta» o «Originale piena» (rispetto all'originale si vede meno ai bordi). Include la beta 3: stile 1/2 anche nella vista 360°, nuova scelta «Originale piena»."
     }
   }
 }

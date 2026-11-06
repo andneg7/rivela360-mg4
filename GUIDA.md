@@ -29,6 +29,14 @@ Dopo aver riattivato la 360 di serie puoi disinstallare l'app dal gestore applic
 
 > La retrocamera rapida dell'avvio dell'auto non va mai disattivata né toccata.
 
+## Vista della telecamera
+In *Impostazioni › Telecamera › Vista* ci sono tre scelte:
+- **Originale** (di serie): l'immagine intera della telecamera, con le linee curve dell'obiettivo e gli angoli neri.
+- **Corretta**: le linee tornano dritte, ma l'angolo di visione è più stretto: ai lati e in alto si vede meno.
+- **Originale piena**: l'immagine originale ingrandita per riempire lo schermo: spariscono gli angoli neri, ma si perde circa un quarto dei bordi.
+
+Quando scegli *Corretta* o *Originale piena* l'app mostra un avviso con un disegno e chiede conferma.
+
 ## Aggiornare
 - *Impostazioni › Aggiornamenti › Cerca aggiornamenti*: l'app controlla questa repository e propone la nuova versione.
 - Oppure scarica l'APK nuovo da [`releases/`](releases/) e installalo come sopra: si installa sopra quello vecchio, senza perdere le impostazioni.
