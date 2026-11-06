@@ -16,6 +16,23 @@
 - **Foto, video e registrazione automatica delle manovre**, anche su chiavetta USB.
 - Lingue: inglese, italiano, tedesco, francese e spagnolo.
 
+## Come si presenta
+> Le immagini della retromarcia e della vista 3D sono **mockup** (schermata simulata e render del modello 3D); quelle delle impostazioni sono schermate vere della versione demo. Nessuna è una foto dell'auto. Nell'auto l'aspetto può differire in qualche dettaglio.
+
+**Retromarcia:** vista 360° a sinistra, telecamera posteriore a destra, con linee guida, barre dei sensori e distanza in cm.
+
+![Retromarcia](immagini/retromarcia.png)
+
+**Vista 3D** con il modello dell'auto:
+
+![Vista 3D](immagini/vista-3d.png)
+
+**Impostazioni** (schermate vere della versione demo, pensate per il tocco):
+
+![Impostazioni: apertura e chiusura](immagini/impostazioni-apertura.png)
+![Impostazioni: retromarcia](immagini/impostazioni-retromarcia.png)
+![Impostazioni: vista 3D](immagini/impostazioni-vista-3d.png)
+
 ## Installare
 La guida passo passo, con il ritorno alla 360 di serie, è in [**GUIDA.md**](GUIDA.md). In breve:
 1. Scarica l'ultimo APK dalla cartella [`releases/`](releases/).
