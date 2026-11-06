@@ -1,0 +1,21 @@
+{
+  "format": 1,
+  "channels": {
+    "stabile": {
+      "versionCode": 21102,
+      "versionName": "2.11 beta 2",
+      "file": "releases/Rivela360-v2.11-beta2.apk",
+      "sha256": "581ee8180c602ddb027825cf13ad7e3035884d184a0ede2c5cca04247ce4529a",
+      "size": 484615,
+      "notes": "Prima versione di prova di Rivela 360: vista 360°, vista 3D, linee d'ingombro, sensori, avviso traffico trasversale, modalità autolavaggio, registrazione. Leggi le avvertenze."
+    },
+    "beta": {
+      "versionCode": 21102,
+      "versionName": "2.11 beta 2",
+      "file": "releases/Rivela360-v2.11-beta2.apk",
+      "sha256": "581ee8180c602ddb027825cf13ad7e3035884d184a0ede2c5cca04247ce4529a",
+      "size": 484615,
+      "notes": "Prima versione di prova di Rivela 360."
+    }
+  }
+}
