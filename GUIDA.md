@@ -37,6 +37,13 @@ In *Impostazioni › Telecamera › Vista* ci sono tre scelte:
 
 Quando scegli *Corretta* o *Originale piena* l'app mostra un avviso con un disegno e chiede conferma. I valori sono calcolati dalla calibrazione della telecamera, non misurati in auto.
 
+## Canali: Stabile e Beta
+In *Impostazioni › Aggiornamenti* puoi scegliere da quale canale ricevere gli aggiornamenti:
+- **Stabile** (di serie): solo versioni provate e approvate dall'autore.
+- **Beta**: versioni di prova, con le novità prima degli altri e più possibilità di difetti.
+
+Finora non è uscita nessuna versione stabile: per ora i due canali indicano la stessa versione di prova. Quando uscirà la prima stabile, il canale Stabile non riceverà più le beta.
+
 ## Aggiornare
 - *Impostazioni › Aggiornamenti › Cerca aggiornamenti*: l'app controlla questa repository e propone la nuova versione.
 - Oppure scarica l'APK nuovo da [`releases/`](releases/) e installalo come sopra: si installa sopra quello vecchio, senza perdere le impostazioni.
