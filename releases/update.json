@@ -2,20 +2,20 @@
   "format": 1,
   "channels": {
     "stabile": {
-      "versionCode": 21104,
-      "versionName": "2.11 beta 4",
-      "file": "releases/Rivela360-v2.11-beta4.apk",
-      "sha256": "8bdde8a6696dca08040eb50a5187bcbdfd2b78942d406e2d0b0f92b15243a5b1",
+      "versionCode": 21105,
+      "versionName": "2.11 beta 5",
+      "file": "releases/Rivela360-v2.11-beta5.apk",
+      "sha256": "230b82ad285fa9264d1c7420240d9fbfe5135d14b055a80aa324262a91823dd3",
       "size": 484615,
       "notes": "Versione di prova di Rivela 360: vista 360°, vista 3D, linee d'ingombro, sensori, avviso traffico trasversale, modalità autolavaggio, registrazione. Leggi le avvertenze."
     },
     "beta": {
-      "versionCode": 21104,
-      "versionName": "2.11 beta 4",
-      "file": "releases/Rivela360-v2.11-beta4.apk",
-      "sha256": "8bdde8a6696dca08040eb50a5187bcbdfd2b78942d406e2d0b0f92b15243a5b1",
+      "versionCode": 21105,
+      "versionName": "2.11 beta 5",
+      "file": "releases/Rivela360-v2.11-beta5.apk",
+      "sha256": "230b82ad285fa9264d1c7420240d9fbfe5135d14b055a80aa324262a91823dd3",
       "size": 484615,
-      "notes": "Beta 4: avviso con angoli di visione per «Corretta» e «Originale piena»; tolta la scelta «Righe dell'immagine» (sempre ricomposte). Include la beta 3: stile 1/2 nella vista 360°."
+      "notes": "Beta 5: ruote, impronte e fasce dell'autolavaggio sulla geometria SAIC; gomme vere nella vista dall'alto; vista dall'alto «ampia» come la 360 di serie, che resta memorizzata; strisce dell'autolavaggio sfumate; rotazione 3D invertita di serie con interruttore; guscio dei fari anteriori visibile e versione del modello 3D nelle impostazioni (modello nuovo, si scarica da solo); la 360 di serie resta finché non accetti le avvertenze, mostrate da fermi in qualsiasi marcia tranne R; download del modello più robusto."
     }
   }
 }
