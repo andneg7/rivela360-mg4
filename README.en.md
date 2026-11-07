@@ -52,6 +52,9 @@ The step-by-step guide, including how to go back to the stock 360, is in [**GUID
 ## Going back to the stock 360
 Before uninstalling the app or doing an MG firmware update: *Settings › Reversing and turn signals open › The stock 360*. Full details are in the [guide](GUIDE.en.md#going-back-to-the-stock-360).
 
+## How the 3D view works
+The projection of the cameras onto the "bowl", the distortions and the limits of the 4 cameras are explained in [**PROJECTION-3D.en.md**](PROJECTION-3D.en.md).
+
 ## Beta testing
 Want to help test it? The instructions, with the list of tests and the form for your result, are in [**BETATEST.en.md**](BETATEST.en.md).
 

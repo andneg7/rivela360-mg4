@@ -50,6 +50,9 @@ La guida passo passo, con il ritorno alla 360 di serie, è in [**GUIDA.md**](GUI
 ## Tornare alla 360 di serie
 Prima di disinstallare l'app o di fare un aggiornamento firmware MG: *Impostazioni › Retromarcia e frecce aprono › La 360 di serie*. Tutti i dettagli sono nella [guida](GUIDA.md#tornare-alla-360-di-serie).
 
+## Come funziona la vista 3D
+La proiezione delle telecamere sulla «ciotola», le distorsioni e i limiti delle 4 camere sono spiegati in [**PROIEZIONE-3D.md**](PROIEZIONE-3D.md).
+
 ## Beta testing
 Vuoi aiutare a provarla? Le istruzioni, con l'elenco delle prove e il modulo per il risultato, sono in [**BETATEST.md**](BETATEST.md).
 
