@@ -4,6 +4,15 @@
 
 # Rivela 360
 
+<p align="center">
+<a href="releases/update.json"><img alt="version" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fandneg7%2Frivela360-mg4%2Fmain%2Freleases%2Fupdate.json&query=%24.channels.beta.versionName&label=version&logo=github&color=1e6eeb"></a>
+<a href="https://github.com/andneg7/rivela360-mg4/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/andneg7/rivela360-mg4?logo=github&style=flat"></a>
+<img alt="Android" src="https://img.shields.io/badge/Android-9-3ddc84?logo=android&logoColor=white">
+<img alt="MG4" src="https://img.shields.io/badge/MG4-Electric-e4002b">
+<img alt="Freeware" src="https://img.shields.io/badge/Freeware-free-2ea44f">
+<a href="https://github.com/andneg7/rivela360-mg4/issues"><img alt="Issues" src="https://img.shields.io/github/issues/andneg7/rivela360-mg4?logo=github&label=issues"></a>
+</p>
+
 **An alternative 360° view for the MG4 Electric.** An independent, free project that replaces the stock 360° camera interface with a clearer view, a 3D model of the car and many extra features.
 
 > [!CAUTION]
@@ -46,6 +55,10 @@
 
 ![3D view](immagini/vista-3d.png)
 
+**Car wash mode** (front camera): the two strips the front wheels will follow, with marks at 1, 2 and 3 m. *Illustration, not a real screenshot.*
+
+![Car wash mode](immagini/autolavaggio-illustrazione.png)
+
 **Settings** (real screenshots of the demo version, designed for touch):
 
 ![Settings: opening and closing](immagini/impostazioni-apertura.png)
@@ -74,6 +87,12 @@ Settings › *Tests and advanced* › Diagnostics › *Save and send diagnostic 
 
 ## Updates
 The app checks for updates from this repository (Settings › Updates). The list of versions is in [`releases/`](releases/). There are two channels: **Stable** (default) and **Beta**, which gets test builds first.
+
+## Freeware and donations
+**Rivela 360 is freeware**: free to download and use, with no ads, no paid features and no sign-up. It is not open source (the code is not published).
+If it is useful to you and you want to support the work, you can make a **free, optional donation** with PayPal. It entitles you to nothing extra: no extra features, no guaranteed support, no priority.
+
+<p align="center"><a href="https://www.paypal.me/anegri18"><img alt="Donate with PayPal" src="https://img.shields.io/badge/Donate-PayPal-0070ba?logo=paypal&logoColor=white&style=for-the-badge"></a></p>
 
 ## License and credits
 - **Rivela 360** is free for personal, non-commercial use. The source code is not published. Selling it or distributing it for a fee is not allowed.
