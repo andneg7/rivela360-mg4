@@ -1,0 +1,51 @@
+name: Segnalazione / Bug report
+description: Un problema o un'idea per Rivela 360 / A problem or an idea for Rivela 360
+labels: ["segnalazione"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Grazie! Più dettagli dai, più facile è capire il problema. **Non scrivere dati personali** (targa, indirizzi). Non segnalare mentre guidi.
+        Thanks! The more details you give, the easier it is to understand. **Do not include personal data** (plate, addresses). Do not report while driving.
+  - type: input
+    id: versione
+    attributes:
+      label: Versione dell'app / App version
+      description: In Impostazioni, in basso a sinistra (es. 2.11 beta 5) / In Settings, bottom left (e.g. 2.11 beta 5)
+    validations:
+      required: true
+  - type: input
+    id: auto
+    attributes:
+      label: Auto e firmware / Car and firmware
+      description: Modello, testa unità e firmware (es. MG4 Electric, SWI68 R67)
+      placeholder: MG4 Electric, SWI68 R67
+    validations:
+      required: true
+  - type: textarea
+    id: successo
+    attributes:
+      label: Cosa è successo / What happened
+    validations:
+      required: true
+  - type: textarea
+    id: atteso
+    attributes:
+      label: Cosa ti aspettavi / What you expected
+  - type: textarea
+    id: passi
+    attributes:
+      label: Come si riproduce / How to reproduce
+      description: In quale marcia, vista e impostazioni / Which gear, view and settings
+  - type: textarea
+    id: extra
+    attributes:
+      label: Foto, schermate o log / Photos, screenshots or logs
+      description: Trascina qui i file. Il log si invia dall'app (Impostazioni › Prove e avanzate) / Drag files here
+  - type: checkboxes
+    id: sicurezza
+    attributes:
+      label: Sicurezza / Safety
+      options:
+        - label: Non sto guidando mentre scrivo questa segnalazione / I am not driving while writing this report
+          required: true
