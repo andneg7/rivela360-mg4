@@ -7,9 +7,9 @@ Questa pagina spiega, in modo semplice, come Rivela 360 costruisce le viste 360�
 ## L'idea: la ciotola
 Le telecamere non vedono la profondità: ognuna produce solo un'immagine piatta. Per ricomporle, l'app "dipinge" le immagini su una superficie attorno all'auto a forma di **ciotola**:
 
-- **Fondo piatto** vicino all'auto, fino a circa **2,8 m** dalla carrozzeria. Qui l'immagine è proiettata a terra e le distanze e le linee guida sono corrette.
-- **Parete che sale** oltre quel limite, fino a circa **11 m**. Serve a mostrare l'ambiente circostante (edifici, auto, alberi) invece di tagliarlo.
-- Il profilo è un **rettangolo con gli angoli arrotondati**, non un cerchio e non una sfera: l'auto è lunga e stretta e una forma tonda sposterebbe troppo lontano il terreno sui fianchi, dove si parcheggia. L'inizio e la ripidezza della parete sono regolabili nelle impostazioni della vista 3D.
+- **Fondo piatto** vicino all'auto, fino a circa **1,5 m** dalla carrozzeria. Qui l'immagine è proiettata a terra e le distanze e le linee guida sono corrette.
+- **Parete che sale** oltre quel limite, **sempre più ripida** man mano che ci si allontana, fino a circa **11 m** dall'auto. Serve a mostrare l'ambiente circostante (edifici, auto, alberi) invece di tagliarlo.
+- Il profilo è un **rettangolo con gli angoli arrotondati**, non un cerchio e non una sfera: l'auto è lunga e stretta e una forma tonda sposterebbe troppo lontano il terreno sui fianchi, dove si parcheggia. L'inizio e la ripidezza della parete sono valori fissi: non si regolano dalle impostazioni.
 - Ogni telecamera colora la **sua** zona (davanti, dietro, sinistra, destra). Dove due zone si incontrano, agli angoli, le immagini si sfumano l'una nell'altra.
 
 ![Schema: sezione laterale e vista dall'alto della ciotola](immagini/proiezione-3d-schema.png)

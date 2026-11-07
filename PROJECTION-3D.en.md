@@ -7,9 +7,9 @@ This page explains, in simple terms, how Rivela 360 builds the 360° and 3D view
 ## The idea: the bowl
 The cameras don't see depth: each one produces only a flat image. To put them together, the app "paints" the images onto a **bowl**-shaped surface around the car:
 
-- **Flat floor** near the car, up to about **2.8 m** from the bodywork. Here the image is projected onto the ground, so distances and guide lines are correct.
-- **Rising wall** beyond that, up to about **11 m**. It shows the surroundings (buildings, cars, trees) instead of cutting them off.
-- The outline is a **rectangle with rounded corners**, not a circle or a sphere: the car is long and narrow, and a round shape would push the ground at the sides, where you park, too far away. Where the wall starts and how steep it is can be adjusted in the 3D view settings.
+- **Flat floor** near the car, up to about **1.5 m** from the bodywork. Here the image is projected onto the ground, so distances and guide lines are correct.
+- **Rising wall** beyond that, **getting steeper** with distance, up to about **11 m** from the car. It shows the surroundings (buildings, cars, trees) instead of cutting them off.
+- The outline is a **rectangle with rounded corners**, not a circle or a sphere: the car is long and narrow, and a round shape would push the ground at the sides, where you park, too far away. Where the wall starts and how steep it is are fixed values: they cannot be adjusted in the settings.
 - Each camera paints **its own** zone (front, rear, left, right). Where two zones meet, at the corners, the images blend into each other.
 
 ![Diagram: side section and top view of the bowl](immagini/proiezione-3d-schema.png)
