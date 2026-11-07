@@ -4,7 +4,16 @@
 
 **An alternative 360° view for the MG4 Electric.** An independent, free project that replaces the stock 360° camera interface with a clearer view, a 3D model of the car and many extra features.
 
-> ⚠️ **Personal, unofficial project, not affiliated with MG Motor or SAIC.** It is a driving aid that can be wrong, and it replaces a stock application of the car. Before installing it, read the [**Warnings and liability**](DISCLAIMER.en.md): by installing it you accept them.
+> [!CAUTION]
+> ## ⚠️ A DRIVING AID: IT DOES NOT REPLACE YOUR ATTENTION
+> - **Rivela 360 is only an aid.** Images, guide lines, distances, colours, sensor bars and warnings can be **inaccurate, late, missing or wrong**.
+> - **The driver is always solely responsible for the manoeuvre.** **Always** also check the mirrors and **look directly outside** the window, and comply with traffic law.
+> - **Don't rely on the screen alone** for distances, obstacles, people, animals or children near the car.
+> - **It replaces a stock application of the car** and uses system permissions: it can cause malfunctions, including of the original camera, and may void the warranty. **Installation and use are at your sole risk.**
+> - **Always try it stationary**, in P, in a safe place, before using it to manoeuvre.
+> - Before installing it, read the [**Warnings and liability**](DISCLAIMER.en.md): by installing it you accept them.
+
+> **Personal, unofficial project, not affiliated with MG Motor or SAIC.**
 >
 > 🔬 **Test version.** It has been tried on a single configuration only: **MG4 Electric Luxury MY23, FICM head unit, firmware SWI68 R67, Android 9**. I don't know how it behaves on other versions.
 >
@@ -47,7 +56,7 @@
 The step-by-step guide, including how to go back to the stock 360, is in [**GUIDE.en.md**](GUIDE.en.md). In short:
 1. Download the latest APK from the [`releases/`](releases/) folder.
 2. Copy it to a USB stick, open it from the car's file manager and tap *Install*.
-3. On first launch, stationary in P, read and accept the warnings. **Always try it while stationary before using it to manoeuvre.**
+3. On first launch, stationary in P, read and accept the warnings. **Always try it while stationary before using it to manoeuvre: it is only an aid, responsibility for the manoeuvre stays with you.**
 
 ## Going back to the stock 360
 Before uninstalling the app or doing an MG firmware update: *Settings › Reversing and turn signals open › The stock 360*. Full details are in the [guide](GUIDE.en.md#going-back-to-the-stock-360).

@@ -4,7 +4,16 @@
 
 **Vista 360° alternativa per MG4 Electric.** Un progetto indipendente e gratuito che sostituisce l'interfaccia della telecamera 360° di serie con una vista più chiara, con il modello 3D dell'auto e molte funzioni in più.
 
-> ⚠️ **Progetto personale, non ufficiale e non collegato a MG Motor né a SAIC.** È un ausilio che può sbagliare e sostituisce un'applicazione di serie dell'auto. Prima di installarlo leggi le [**Avvertenze e responsabilità**](DISCLAIMER.md): installandolo le accetti.
+> [!CAUTION]
+> ## ⚠️ AUSILIO ALLA GUIDA: NON SOSTITUISCE LA TUA ATTENZIONE
+> - **Rivela 360 è solo un aiuto.** Immagini, linee guida, distanze, colori, barre dei sensori e avvisi possono essere **imprecisi, in ritardo, assenti o sbagliati**.
+> - **Il guidatore è sempre l'unico responsabile della manovra.** Guarda **sempre** anche gli specchietti e **direttamente fuori** dal finestrino, e rispetta il Codice della strada.
+> - **Non fidarti solo dello schermo** per distanze, ostacoli, persone, animali o bambini vicino all'auto.
+> - **Sostituisce un'applicazione di serie dell'auto** e usa permessi di sistema: può causare malfunzionamenti, anche della telecamera originale, e far decadere la garanzia. **Installazione e uso sono a tuo esclusivo rischio.**
+> - **Provala sempre da fermo**, in P, in un posto sicuro, prima di usarla in manovra.
+> - Prima di installarla leggi le [**Avvertenze e responsabilità**](DISCLAIMER.md): installandola le accetti.
+
+> **Progetto personale, non ufficiale e non collegato a MG Motor né a SAIC.**
 >
 > 🔬 **Versione di prova.** È stata provata su una sola configurazione: **MG4 Electric Luxury MY23, unità FICM, firmware SWI68 R67, Android 9**. Su altre versioni non so come si comporta.
 >
@@ -45,7 +54,7 @@
 La guida passo passo, con il ritorno alla 360 di serie, è in [**GUIDA.md**](GUIDA.md). In breve:
 1. Scarica l'ultimo APK dalla cartella [`releases/`](releases/).
 2. Copialo su una chiavetta USB, aprilo dal gestore file dell'auto e tocca *Installa*.
-3. Alla prima apertura, da fermo in P, leggi e accetta le avvertenze. **Provala sempre da fermo prima di usarla in manovra.**
+3. Alla prima apertura, da fermo in P, leggi e accetta le avvertenze. **Provala sempre da fermo prima di usarla in manovra: è solo un ausilio, la responsabilità della manovra resta tua.**
 
 ## Tornare alla 360 di serie
 Prima di disinstallare l'app o di fare un aggiornamento firmware MG: *Impostazioni › Retromarcia e frecce aprono › La 360 di serie*. Tutti i dettagli sono nella [guida](GUIDA.md#tornare-alla-360-di-serie).
