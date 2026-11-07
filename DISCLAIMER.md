@@ -1,3 +1,5 @@
+🇮🇹 Italiano | [🇬🇧 English](DISCLAIMER.en.md)
+
 # Avvertenze e responsabilità
 
 Leggi con attenzione prima di usare l'app. Lo stesso testo compare alla prima apertura dell'app e si può rileggere in *Impostazioni › Aggiornamenti › Avvertenze e responsabilità*.

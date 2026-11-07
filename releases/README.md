@@ -1,3 +1,5 @@
+🇮🇹 Italiano | [🇬🇧 English](README.en.md)
+
 # Versioni
 
 `update.json` descrive l'ultima versione di ogni canale (numero, file, impronta SHA-256, dimensione, note). L'app lo legge per sapere se c'è una versione nuova.

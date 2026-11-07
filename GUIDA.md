@@ -1,3 +1,5 @@
+🇮🇹 Italiano | [🇬🇧 English](GUIDE.en.md)
+
 # Guida: installare, provare, tornare indietro
 
 Questa guida vale per la prova di **Rivela 360** su MG4 Electric. Leggi prima le [Avvertenze](DISCLAIMER.md).

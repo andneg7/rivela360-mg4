@@ -1,3 +1,5 @@
+🇮🇹 Italiano | [🇬🇧 English](README.en.md)
+
 # Rivela 360
 
 **Vista 360° alternativa per MG4 Electric.** Un progetto indipendente e gratuito che sostituisce l'interfaccia della telecamera 360° di serie con una vista più chiara, con il modello 3D dell'auto e molte funzioni in più.
@@ -52,7 +54,7 @@ Prima di disinstallare l'app o di fare un aggiornamento firmware MG: *Impostazio
 Impostazioni › *Prove e avanzate* › Diagnosi › *Salva e invia i log di diagnosi*: il file viene salvato in `Download/MG4-360-log`. Mandalo allo sviluppatore insieme a modello e anno dell'auto, versione dell'app e a cosa stavi facendo.
 
 ## Aggiornamenti
-L'app controlla gli aggiornamenti da questa repository (Impostazioni › Aggiornamenti). L'elenco delle versioni è in [`releases/`](releases/).
+L'app controlla gli aggiornamenti da questa repository (Impostazioni › Aggiornamenti). L'elenco delle versioni è in [`releases/`](releases/). I canali sono due: **Stabile** (predefinito) e **Beta**, che riceve per prima le versioni di prova.
 
 ## Licenza e crediti
 - **Rivela 360** è gratuita per uso personale e non commerciale. Il codice non è pubblicato. Non è consentito venderla né distribuirla a pagamento.
