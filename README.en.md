@@ -1,5 +1,7 @@
 🇬🇧 English | [🇮🇹 Italiano](README.md)
 
+<p align="center"><img src="immagini/rivela360-logo-orizzontale.svg" alt="Rivela 360" width="520"></p>
+
 # Rivela 360
 
 **An alternative 360° view for the MG4 Electric.** An independent, free project that replaces the stock 360° camera interface with a clearer view, a 3D model of the car and many extra features.
