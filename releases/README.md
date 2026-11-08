@@ -6,8 +6,8 @@
 
 | Canale | Versione | Stato |
 |---|---|---|
-| stabile | 2.11 beta 5 | 🔬 versione di prova |
-| beta | 2.11 beta 5 | 🔬 versione di prova |
+| stabile | 2.11 beta 6 | 🔬 versione di prova |
+| beta | 2.11 beta 6 | 🔬 versione di prova |
 
 Installazione manuale: scarica l'APK (pulsante *Download raw file*), copialo su una chiavetta USB e installalo dal gestore file dell'auto. Vedi la [guida](../GUIDA.md).
 

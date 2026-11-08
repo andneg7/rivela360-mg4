@@ -6,8 +6,8 @@
 
 | Channel | Version | Status |
 |---|---|---|
-| stabile (stable) | 2.11 beta 5 | 🔬 test version |
-| beta | 2.11 beta 5 | 🔬 test version |
+| stabile (stable) | 2.11 beta 6 | 🔬 test version |
+| beta | 2.11 beta 6 | 🔬 test version |
 
 Manual installation: download the APK (*Download raw file* button), copy it to a USB stick and install it from the car's file manager. See the [guide](../GUIDE.en.md).
 
