@@ -78,6 +78,9 @@ La guida passo passo, con il ritorno alla 360 di serie, è in [**GUIDA.md**](GUI
 2. Copialo su una chiavetta USB, aprilo dal gestore file dell'auto e tocca *Installa*.
 3. Alla prima apertura, da fermo in P, leggi e accetta le avvertenze. **Provala sempre da fermo prima di usarla in manovra: è solo un ausilio, la responsabilità della manovra resta tua.**
 
+> [!NOTE]
+> **Dopo l'accensione dell'auto aspetta che l'infotainment abbia finito di avviarsi.** Rivela 360 è disponibile solo a avvio completato. Nel frattempo, in retromarcia, c'è la retrocamera rapida di serie (fast RVC), che è indipendente da Android e funziona anche durante l'avvio.
+
 ## Tornare alla 360 di serie
 Prima di disinstallare l'app o di fare un aggiornamento firmware MG: *Impostazioni › Retromarcia e frecce aprono › La 360 di serie*. Tutti i dettagli sono nella [guida](GUIDA.md#tornare-alla-360-di-serie).
 

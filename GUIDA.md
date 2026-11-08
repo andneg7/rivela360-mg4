@@ -18,6 +18,9 @@ Questa guida vale per la prova di **Rivela 360** su MG4 Electric. Leggi prima le
 4. Se il sistema rifiuta l'installazione, non insistere e scrivi allo sviluppatore: non c'è nessun danno.
 5. Apri l'app da ferma in P. Alla prima apertura compare la schermata delle avvertenze: leggila e tocca *Ho letto e accetto*.
 
+## Dopo l'accensione dell'auto
+Aspetta che l'infotainment abbia finito di avviarsi: Rivela 360 è disponibile solo a avvio completato. Nel frattempo, in retromarcia, c'è la retrocamera rapida di serie (fast RVC), che è indipendente da Android, funziona anche durante l'avvio e non va mai disattivata.
+
 ## Prova da fermo
 - Con l'app aperta passa alle varie viste (360°, telecamera singola, 3D) e controlla che le immagini siano corrette.
 - La prima volta che attivi la vista 3D l'app scarica il modello dell'auto (circa 8 MB): serve la rete dell'auto o il Wi-Fi, una volta sola.

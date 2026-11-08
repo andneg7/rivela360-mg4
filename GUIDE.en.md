@@ -18,6 +18,9 @@ This guide covers the trial of **Rivela 360** on the MG4 Electric. Read the [War
 4. If the system refuses the installation, don't insist and write to the developer: there is no damage.
 5. Open the app stationary in P. On first launch the warnings screen appears: read it and tap *I have read and accept*.
 
+## After switching the car on
+Wait for the infotainment to finish booting: Rivela 360 is only available once the boot is complete. In the meantime, when reversing, the stock fast rear camera (fast RVC) is there: it is independent of Android, works even while it boots, and must never be disabled.
+
 ## Stationary test
 - With the app open, switch between the views (360°, single camera, 3D) and check that the images are correct.
 - The first time you enable the 3D view the app downloads the car model (about 8 MB): you need the car's network or Wi-Fi, once only.

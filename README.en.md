@@ -80,6 +80,9 @@ The step-by-step guide, including how to go back to the stock 360, is in [**GUID
 2. Copy it to a USB stick, open it from the car's file manager and tap *Install*.
 3. On first launch, stationary in P, read and accept the warnings. **Always try it while stationary before using it to manoeuvre: it is only an aid, responsibility for the manoeuvre stays with you.**
 
+> [!NOTE]
+> **After switching the car on, wait for the infotainment to finish booting.** Rivela 360 is only available once the boot is complete. In the meantime, when reversing, the stock fast rear camera (fast RVC) is there: it is independent of Android and works even while it boots.
+
 ## Going back to the stock 360
 Before uninstalling the app or doing an MG firmware update: *Settings › Reversing and turn signals open › The stock 360*. Full details are in the [guide](GUIDE.en.md#going-back-to-the-stock-360).
 
