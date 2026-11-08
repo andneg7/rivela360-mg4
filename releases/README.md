@@ -2,6 +2,9 @@
 
 # Versioni
 
+> [!WARNING]
+> **🧪 Tutte le versioni sono beta sperimentali: usare con cautela.** Anche il canale «stabile» contiene per ora una beta. Non affidarti mai solo a questa app per le manovre.
+
 `update.json` descrive l'ultima versione di ogni canale (numero, file, impronta SHA-256, dimensione, note). L'app lo legge per sapere se c'è una versione nuova.
 
 | Canale | Versione | Stato |

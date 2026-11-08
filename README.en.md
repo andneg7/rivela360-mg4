@@ -9,6 +9,7 @@
 <a href="https://github.com/andneg7/rivela360-mg4/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/andneg7/rivela360-mg4?logo=github&style=flat"></a>
 <img alt="Android" src="https://img.shields.io/badge/Android-9-3ddc84?logo=android&logoColor=white">
 <img alt="MG4" src="https://img.shields.io/badge/MG4-Electric-e4002b">
+<img alt="Experimental beta" src="https://img.shields.io/badge/STATUS-EXPERIMENTAL%20BETA-e8590c?style=flat">
 <img alt="Freeware" src="https://img.shields.io/badge/Freeware-free-2ea44f">
 <a href="https://github.com/andneg7/rivela360-mg4/issues"><img alt="Issues" src="https://img.shields.io/github/issues/andneg7/rivela360-mg4?logo=github&label=issues"></a>
 </p>
@@ -16,6 +17,10 @@
 <p align="center"><a href="https://www.paypal.me/anegri18"><img alt="Donate with PayPal" src="https://img.shields.io/badge/Donate-PayPal-0070ba?logo=paypal&logoColor=white&style=for-the-badge"></a><br><sub>Freeware: if it is useful to you, you can support the project with a free, optional donation.</sub></p>
 
 **An alternative 360° view for the MG4 Electric.** An independent, free project that replaces the stock 360° camera interface with a clearer view, a 3D model of the car and many extra features.
+
+> [!WARNING]
+> ## 🧪 EXPERIMENTAL BETA VERSIONS: USE WITH CAUTION
+> **All Rivela 360 versions are, for now, experimental betas.** It is a hobby project, tried so far on a single car. They may contain bugs, behave unexpectedly or stop working after an update. **Use them with caution**: never rely on this app as your only way to see around the car. The stock 360° can be restored at any time from the app settings.
 
 > [!CAUTION]
 > ## ⚠️ A DRIVING AID: IT DOES NOT REPLACE YOUR ATTENTION

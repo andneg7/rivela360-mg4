@@ -2,6 +2,9 @@
 
 # Versions
 
+> [!WARNING]
+> **🧪 All versions are experimental betas: use with caution.** Even the "stable" channel currently holds a beta. Never rely on this app alone when manoeuvring.
+
 `update.json` describes the latest version of each channel (number, file, SHA-256 fingerprint, size, notes). The app reads it to know whether a new version exists.
 
 | Channel | Version | Status |
