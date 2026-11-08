@@ -2,20 +2,20 @@
   "format": 1,
   "channels": {
     "stabile": {
-      "versionCode": 21106,
-      "versionName": "2.11 beta 6",
-      "file": "releases/Rivela360-v2.11-beta6.apk",
-      "sha256": "b4342d5276b097f6da749b19d6f2b16e27ffd7d932521d4a9bf7fd4f0ec782b6",
+      "versionCode": 21107,
+      "versionName": "2.11 beta 7",
+      "file": "releases/Rivela360-v2.11-beta7.apk",
+      "sha256": "bc3c3ad567db1c788cda19bef13b2b98d768a9c9e61961c98b2f67db75531a55",
       "size": 488711,
-      "notes": "Versione di prova di Rivela 360: vista 360°, vista 3D, linee d'ingombro, sensori, avviso traffico trasversale, modalità autolavaggio, registrazione. Leggi le avvertenze."
+      "notes": "Versione di prova di Rivela 360 (beta sperimentale): vista 360°, vista 3D, linee d'ingombro, sensori, avviso traffico trasversale, modalità autolavaggio, registrazione. Leggi le avvertenze e usala con cautela."
     },
     "beta": {
-      "versionCode": 21106,
-      "versionName": "2.11 beta 6",
-      "file": "releases/Rivela360-v2.11-beta6.apk",
-      "sha256": "b4342d5276b097f6da749b19d6f2b16e27ffd7d932521d4a9bf7fd4f0ec782b6",
+      "versionCode": 21107,
+      "versionName": "2.11 beta 7",
+      "file": "releases/Rivela360-v2.11-beta7.apk",
+      "sha256": "bc3c3ad567db1c788cda19bef13b2b98d768a9c9e61961c98b2f67db75531a55",
       "size": 488711,
-      "notes": "Beta 6: aggiornamenti più chiari: se un canale non ha versioni l'app lo dice con un messaggio invece di un errore tecnico. Include la beta 5: geometria SAIC, vista ampia, gomme vere, rotazione 3D con interruttore, guscio dei fari 3D (modello nuovo), download del modello più robusto."
+      "notes": "Beta 7: la vista dall'alto «ampia» mostra un altro 30% di spazio (zoom indietro). Include la beta 6 e la beta 5. Versione sperimentale: usare con cautela."
     }
   }
 }
