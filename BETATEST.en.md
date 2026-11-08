@@ -2,6 +2,9 @@
 
 # Beta testing Rivela 360
 
+> [!WARNING]
+> **🧪 Experimental beta versions: use with caution.** Try them stationary, in a safe place, and never rely on this app alone when manoeuvring.
+
 Thanks for helping out! **Beta** versions are test builds: your help is needed to find what doesn't work on your car before other people use it. Read the [Warnings](DISCLAIMER.en.md) and the [Guide](GUIDE.en.md) (installation and going back to the stock 360) first.
 
 > So far tried only on **MG4 Electric Luxury MY23, FICM head unit, firmware SWI68 R67**. If you have another version (for example SWI133), your result is especially valuable: always state the firmware.
