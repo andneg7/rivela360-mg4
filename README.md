@@ -1,6 +1,6 @@
 🇮🇹 Italiano | [🇬🇧 English](README.en.md)
 
-<p align="center"><img src="immagini/rivela360-logo-orizzontale.svg" alt="Rivela 360" width="520"></p>
+<p align="center"><img src="immagini/rivela360-logo-horizontal-en.svg" alt="Rivela 360" width="520"></p>
 
 # Rivela 360
 
