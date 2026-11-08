@@ -10,12 +10,12 @@
       "notes": "Versione di prova di Rivela 360 (beta sperimentale): vista 360°, vista 3D, linee d'ingombro, sensori, avviso traffico trasversale, modalità autolavaggio, registrazione. Leggi le avvertenze e usala con cautela."
     },
     "beta": {
-      "versionCode": 21107,
-      "versionName": "2.11 beta 7",
-      "file": "releases/Rivela360-v2.11-beta7.apk",
-      "sha256": "bc3c3ad567db1c788cda19bef13b2b98d768a9c9e61961c98b2f67db75531a55",
+      "versionCode": 21108,
+      "versionName": "2.11 beta 8",
+      "file": "releases/Rivela360-v2.11-beta8.apk",
+      "sha256": "78a3b6b6a940f6b26d790eb69ca3469ff4337f4ba1ae69d8252195128bd35eb9",
       "size": 488711,
-      "notes": "Beta 7: la vista dall'alto «ampia» mostra un altro 30% di spazio (zoom indietro). Include la beta 6 e la beta 5. Versione sperimentale: usare con cautela."
+      "notes": "Beta 8: l'avviso di aggiornamento è più visibile (scritta nel riquadro di sinistra e pallino più grande sull'ingranaggio), viene ricordato alla riapertura e il controllo automatico avviene una volta per ogni accensione dell'auto. Il canale Beta ora si legge dal ramo «beta». Include la beta 7. Versione sperimentale: usare con cautela."
     }
   }
 }
