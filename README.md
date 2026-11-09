@@ -12,6 +12,7 @@
 <img alt="Beta sperimentale" src="https://img.shields.io/badge/STATO-BETA%20SPERIMENTALE-e8590c?style=flat">
 <img alt="Freeware" src="https://img.shields.io/badge/Freeware-gratuito-2ea44f">
 <a href="https://github.com/andneg7/rivela360-mg4/issues"><img alt="Issues" src="https://img.shields.io/github/issues/andneg7/rivela360-mg4?logo=github&label=segnalazioni"></a>
+<a href="https://github.com/andneg7/rivela360-mg4/releases"><img alt="Download" src="https://img.shields.io/github/downloads/andneg7/rivela360-mg4/total?logo=github&label=download"></a>
 </p>
 
 <p align="center"><a href="https://www.paypal.me/anegri18"><img alt="Dona con PayPal" src="https://img.shields.io/badge/Dona-PayPal-0070ba?logo=paypal&logoColor=white&style=for-the-badge"></a><br><sub>Freeware: se ti è utile, puoi sostenere il progetto con una donazione libera e facoltativa.</sub></p>
