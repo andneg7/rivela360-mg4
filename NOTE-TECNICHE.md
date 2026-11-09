@@ -176,6 +176,8 @@ Segnate qui per risparmiare tempo a chi prova dopo di noi.
 | SWI68 **R63** | | 🔍 Analizzato (file estratti). L'app 360° di serie è praticamente identica a R67 |
 | SWI133 **R36** | | 🔍 Analizzato. Nessuna differenza rilevante trovata, ma **non provato in auto** ⚠️ |
 
+**Segnalazione di un altro sviluppatore.** Jan ([jamakr4](https://github.com/jamakr4), autore di [MG4-360-Camera-App](https://github.com/jamakr4/MG4-360-Camera-App)) riferisce che la sua app, che usa le stesse telecamere, funziona su **tutte le MG4 con la 360°** e che non ha mai ricevuto segnalazioni legate alla versione del firmware: il sistema 360° sembra uguale su tutte le SWI. Unica eccezione nota: con **SWI165** la registrazione su chiavetta USB funziona solo dalla **porta USB-A**. Non l'abbiamo verificato noi ❓.
+
 > Se hai un'auto o un firmware diverso, i tuoi risultati sono preziosi: vedi la sezione successiva.
 
 ## 12. Come contribuire
