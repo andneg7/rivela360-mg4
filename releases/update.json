@@ -10,12 +10,12 @@
       "notes": "Versione di prova di Rivela 360 (beta sperimentale): vista 360°, vista 3D, linee d'ingombro, sensori, avviso traffico trasversale, modalità autolavaggio, registrazione. Leggi le avvertenze e usala con cautela."
     },
     "beta": {
-      "versionCode": 21108,
-      "versionName": "2.11 beta 8",
-      "file": "releases/Rivela360-v2.11-beta8.apk",
-      "sha256": "78a3b6b6a940f6b26d790eb69ca3469ff4337f4ba1ae69d8252195128bd35eb9",
-      "size": 488711,
-      "notes": "Beta 8: l'avviso di aggiornamento è più visibile (scritta nel riquadro di sinistra e pallino più grande sull'ingranaggio), viene ricordato alla riapertura e il controllo automatico avviene una volta per ogni accensione dell'auto. Il canale Beta ora si legge dal ramo «beta». Include la beta 7. Versione sperimentale: usare con cautela."
+      "versionCode": 21109,
+      "versionName": "2.11 beta 9",
+      "file": "releases/Rivela360-v2.11-beta9.apk",
+      "sha256": "0378a2a1d4b4a0adb778d65911a7d26673b8c391f6a29b191e74f745251060b4",
+      "size": 2951855,
+      "notes": "Beta 9: nuova auto vista dall'alto, ricavata dal modello 3D, negli 8 colori del menu, con il tetto nero o in tinta (nuova opzione «Tetto», vale anche per la vista 3D). Nuovo avviso di attenzione, più discreto e chiudibile con la X. L'app non usa più immagini né testi dell'app di serie. Include la beta 8. Versione sperimentale: usare con cautela."
     }
   }
 }

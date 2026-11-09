@@ -44,6 +44,7 @@
 
 ## What it does
 - **360° view** built from the 4 cameras, shown next to a single-camera view or the **3D view** with the car model.
+- **Realistic top-view car**, rendered from the 3D model, in the 8 MG4 colours, with a black or body-coloured roof (also in the 3D view).
 - **Dynamic guide lines** that follow the steering, **side clearance lines** with the full arc when stationary, and **sensor bars** also in 3D.
 - **Parking sensors** with distance in cm and automatic zoom on the obstacle, plus a **cross-traffic** warning when reversing.
 - **Car wash mode**: light-blue bands on the front wheels to line up with the track of car wash tunnels, also in 3D with the car semi-transparent.
@@ -109,7 +110,10 @@ If it is useful to you and you want to support the work, you can make a **free, 
 Full text of the terms: [**LICENSE**](LICENSE).
 
 - **Rivela 360** is free for personal, non-commercial use. The source code is not published. Selling it or distributing it for a fee is not allowed.
-- **3D car model**: "[2025 MG MG4 (GLB)(mgmotor.com.mx)](https://sketchfab.com/3d-models/2025-mg-mg4-glbmgmotorcommx-ee2e3b0e1a7b481cb2c08e6fc6d2ed9e)" by **MattDoesBlender** (Sketchfab), licensed [**CC BY-NC-SA 4.0**](https://creativecommons.org/licenses/by-nc-sa/4.0/). The `car3d-pub-v4.bin` file is a **modified** version: simplified (from about 1.1 million to about 550,000 triangles), split into groups and reordered for the graphics chip, with the bodywork recoloured black, interior and brake calipers removed, wheels replaced by a custom design, and manufacturer logos and number plates removed. It is distributed under the same license: non-commercial use only, with this attribution.
+- **3D car model**: "[2025 MG MG4 (GLB)(mgmotor.com.mx)](https://sketchfab.com/3d-models/2025-mg-mg4-glbmgmotorcommx-ee2e3b0e1a7b481cb2c08e6fc6d2ed9e)" by **MattDoesBlender** (Sketchfab), licensed [**CC BY-NC-SA 4.0**](https://creativecommons.org/licenses/by-nc-sa/4.0/). The `car3d-pub-v4.bin` file is a **modified** version: simplified (from about 1.1 million to about 550,000 triangles), split into groups and reordered for the graphics chip, with the bodywork recoloured black, interior and brake calipers removed, wheels replaced by a custom design, and manufacturer logos and number plates removed. The top-view car images used by the app are also rendered from this model. They are distributed under the same license: non-commercial use only, with this attribution.
 - **Fonts**: Exo 2, Chakra Petch and Orbitron, under the SIL Open Font License 1.1.
-- The car's original images and data are not included: the app reads them from the car while running.
+- The app neither contains nor uses images or text from the stock app: the top-view car, icons and warnings are our own. It only reads from the car the data it needs to work (cameras, gear, steering, sensors, calibration).
 - MG, MG4 and SAIC are trademarks of their respective owners, mentioned only to indicate compatibility.
+
+## Use of artificial intelligence
+Parts of Rivela 360's code, documentation and graphics were developed with AI assistance (**Claude** by Anthropic). Design decisions, in-car testing and responsibility for the project remain with the developer.

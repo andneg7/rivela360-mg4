@@ -44,6 +44,7 @@
 
 ## Cosa fa
 - **Vista 360°** costruita dalle 4 telecamere, accanto alla vista di una telecamera alla volta o alla **vista 3D** con il modello dell'auto.
+- **Auto vista dall'alto realistica**, ricavata dal modello 3D, negli 8 colori MG4, con il tetto nero o in tinta con la carrozzeria (anche nella vista 3D).
 - **Linee dinamiche** che seguono lo sterzo, **linee d'ingombro dei fianchi** con l'arco completo da fermi e **barre dei sensori** anche in 3D.
 - **Sensori di parcheggio** con la distanza in cm e zoom automatico sull'ostacolo, e avviso di **traffico trasversale** in retromarcia.
 - **Modalità autolavaggio**: fasce azzurre delle ruote anteriori per entrare nel binario dei tunnel di lavaggio, anche in 3D con l'auto semitrasparente.
@@ -107,7 +108,10 @@ Se ti è utile e vuoi sostenere il lavoro, puoi fare una **donazione libera e fa
 Testo completo delle condizioni: [**LICENSE**](LICENSE).
 
 - **Rivela 360** è gratuita per uso personale e non commerciale. Il codice non è pubblicato. Non è consentito venderla né distribuirla a pagamento.
-- **Modello 3D dell'auto**: «[2025 MG MG4 (GLB)(mgmotor.com.mx)](https://sketchfab.com/3d-models/2025-mg-mg4-glbmgmotorcommx-ee2e3b0e1a7b481cb2c08e6fc6d2ed9e)» di **MattDoesBlender** (Sketchfab), licenza [**CC BY-NC-SA 4.0**](https://creativecommons.org/licenses/by-nc-sa/4.0/). Il file `car3d-pub-v4.bin` è una versione **modificata**: semplificata (da circa 1,1 milioni a circa 550.000 triangoli), divisa in gruppi e riordinata per la scheda grafica, con la carrozzeria ricolorata di nero, interni e pinze dei freni tolti, i cerchi sostituiti da un disegno e i loghi del costruttore e le targhe rimossi. È distribuita con la stessa licenza: solo uso non commerciale, con questa attribuzione.
+- **Modello 3D dell'auto**: «[2025 MG MG4 (GLB)(mgmotor.com.mx)](https://sketchfab.com/3d-models/2025-mg-mg4-glbmgmotorcommx-ee2e3b0e1a7b481cb2c08e6fc6d2ed9e)» di **MattDoesBlender** (Sketchfab), licenza [**CC BY-NC-SA 4.0**](https://creativecommons.org/licenses/by-nc-sa/4.0/). Il file `car3d-pub-v4.bin` è una versione **modificata**: semplificata (da circa 1,1 milioni a circa 550.000 triangoli), divisa in gruppi e riordinata per la scheda grafica, con la carrozzeria ricolorata di nero, interni e pinze dei freni tolti, i cerchi sostituiti da un disegno e i loghi del costruttore e le targhe rimossi. Anche le immagini dell'auto vista dall'alto usate dall'app sono ricavate da questo modello. Sono distribuite con la stessa licenza: solo uso non commerciale, con questa attribuzione.
 - **Caratteri**: Exo 2, Chakra Petch e Orbitron, con licenza SIL Open Font License 1.1.
-- Le immagini e i dati originali dell'auto non sono inclusi: l'app li legge dall'auto mentre funziona.
+- L'app non contiene né usa immagini o testi dell'app di serie: auto vista dall'alto, icone e avvisi sono disegnati da noi. Legge dall'auto solo i dati che servono a funzionare (telecamere, marcia, sterzo, sensori, calibrazione).
 - MG, MG4 e SAIC sono marchi dei rispettivi proprietari, citati solo per indicare la compatibilità.
+
+## Uso dell'intelligenza artificiale
+Parti del codice, della documentazione e della grafica di Rivela 360 sono state sviluppate con l'aiuto dell'intelligenza artificiale (**Claude** di Anthropic). Le scelte, le prove in auto e la responsabilità del progetto restano dello sviluppatore.
