@@ -54,7 +54,7 @@
 - Lingue: inglese, italiano, tedesco, francese e spagnolo.
 
 ## Come si presenta
-> Le immagini della retromarcia e della vista 3D sono **mockup** (schermata simulata e render del modello 3D); quelle delle impostazioni sono schermate vere della versione demo. Nessuna è una foto dell'auto. Nell'auto l'aspetto può differire in qualche dettaglio.
+> Le immagini della retromarcia e della vista 3D sono **mockup** (schermata simulata e render del modello 3D); quelle delle impostazioni sono ricostruzioni fedeli delle schermate dell'app. Nessuna è una foto dell'auto. Nell'auto l'aspetto può differire in qualche dettaglio.
 
 **Retromarcia:** vista 360° a sinistra, telecamera posteriore a destra, con linee guida, barre dei sensori e distanza in cm.
 
@@ -68,7 +68,7 @@
 
 ![Modalità autolavaggio](immagini/autolavaggio-illustrazione.png)
 
-**Impostazioni** (schermate vere della versione demo, pensate per il tocco):
+**Impostazioni** (ricostruzioni delle schermate dell'app, pensate per il tocco):
 
 ![Impostazioni: apertura e chiusura](immagini/impostazioni-apertura.png)
 ![Impostazioni: retromarcia](immagini/impostazioni-retromarcia.png)

@@ -54,11 +54,11 @@
 - Languages: English, Italian, German, French and Spanish.
 
 ## What it looks like
-> The reversing and 3D view images are **mockups** (a simulated screen and a render of the 3D model); the settings ones are real screenshots of the demo version. None is a photo of the car. In the car the look may differ in some details.
+> The reversing and 3D view images are **mockups** (a simulated screen and a render of the 3D model); the settings ones are faithful recreations of the app's settings screens. None is a photo of the car. In the car the look may differ in some details.
 
 **Reversing:** 360° view on the left, rear camera on the right, with guide lines, sensor bars and distance in cm.
 
-![Reversing](immagini/retromarcia.png)
+![Reversing](immagini/reverse.png)
 
 **3D view** with the car model:
 
@@ -66,15 +66,15 @@
 
 **Car wash mode** (front camera): the two strips the front wheels will follow, with marks at 1, 2 and 3 m. *Illustration, not a real screenshot.*
 
-![Car wash mode](immagini/autolavaggio-illustrazione.png)
+![Car wash mode](immagini/car-wash-illustration.png)
 
-**Settings** (real screenshots of the demo version, designed for touch):
+**Settings** (recreations of the app's screens, designed for touch):
 
-![Settings: opening and closing](immagini/impostazioni-apertura.png)
-![Settings: reversing](immagini/impostazioni-retromarcia.png)
-![Settings: 3D view](immagini/impostazioni-vista-3d.png)
+![Settings: opening and closing](immagini/settings-opening.png)
+![Settings: reversing](immagini/settings-reverse.png)
+![Settings: 3D view](immagini/settings-3d-view.png)
 
-> The app's screens appear in the language of the car; the screenshots above are in Italian.
+> The app's screens appear in the language of the car (English, Italian, German, French or Spanish).
 
 ## Installing
 The step-by-step guide, including how to go back to the stock 360, is in [**GUIDE.en.md**](GUIDE.en.md). In short:

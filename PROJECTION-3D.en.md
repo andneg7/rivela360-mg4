@@ -12,9 +12,9 @@ The cameras don't see depth: each one produces only a flat image. To put them to
 - The outline is a **rectangle with rounded corners**, not a circle or a sphere: the car is long and narrow, and a round shape would push the ground at the sides, where you park, too far away. Where the wall starts and how steep it is are fixed values: they cannot be adjusted in the settings.
 - Each camera paints **its own** zone (front, rear, left, right). Where two zones meet, at the corners, the images blend into each other.
 
-![Diagram: side section and top view of the bowl](immagini/proiezione-3d-schema.png)
+![Diagram: side section and top view of the bowl](immagini/projection-3d-diagram.png)
 
-![The bowl in perspective, with the 4 zones](immagini/proiezione-3d-ciotola.png)
+![The bowl in perspective, with the 4 zones](immagini/projection-3d-bowl.png)
 
 ## Unavoidable distortions
 - **On the flat floor:** very little.
