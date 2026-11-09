@@ -91,6 +91,9 @@ Before uninstalling the app or doing an MG firmware update: *Settings › Revers
 ## How the 3D view works
 The projection of the cameras onto the "bowl", the distortions and the limits of the 4 cameras are explained in [**PROJECTION-3D.en.md**](PROJECTION-3D.en.md).
 
+## Technical notes
+How the cameras, firmware, stock 360° app, fast rear-view camera and car data work, with what we verified in the car: [**TECHNICAL-NOTES.en.md**](TECHNICAL-NOTES.en.md).
+
 ## Beta testing
 Want to help test it? The instructions, with the list of tests and the form for your result, are in [**BETATEST.en.md**](BETATEST.en.md).
 

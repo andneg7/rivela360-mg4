@@ -89,6 +89,9 @@ Prima di disinstallare l'app o di fare un aggiornamento firmware MG: *Impostazio
 ## Come funziona la vista 3D
 La proiezione delle telecamere sulla «ciotola», le distorsioni e i limiti delle 4 camere sono spiegati in [**PROIEZIONE-3D.md**](PROIEZIONE-3D.md).
 
+## Note tecniche
+Come sono fatte le telecamere, il firmware, la 360 di serie, la retrocamera rapida e i dati dell'auto, con quello che abbiamo verificato in auto: [**NOTE-TECNICHE.md**](NOTE-TECNICHE.md).
+
 ## Beta testing
 Vuoi aiutare a provarla? Le istruzioni, con l'elenco delle prove e il modulo per il risultato, sono in [**BETATEST.md**](BETATEST.md).
 
