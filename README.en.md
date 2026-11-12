@@ -79,7 +79,7 @@
 
 ## Installing
 The step-by-step guide, including how to go back to the stock 360, is in [**GUIDE.en.md**](GUIDE.en.md). In short:
-1. Download the latest APK from the [`releases/`](releases/) folder.
+1. Download the APK of the **recommended version** from the [**Releases**](https://github.com/andneg7/rivela360-mg4/releases/latest) page (*Assets* section). Newer betas are in the [`releases/`](releases/) folder.
 2. Copy it to a USB stick, open it from the car's file manager and tap *Install*.
 3. On first launch, stationary in P, read and accept the warnings. **Always try it while stationary before using it to manoeuvre: it is only an aid, responsibility for the manoeuvre stays with you.**
 

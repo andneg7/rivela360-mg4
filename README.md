@@ -77,7 +77,7 @@
 
 ## Installare
 La guida passo passo, con il ritorno alla 360 di serie, è in [**GUIDA.md**](GUIDA.md). In breve:
-1. Scarica l'ultimo APK dalla cartella [`releases/`](releases/).
+1. Scarica l'APK della **versione consigliata** dalla pagina [**Release**](https://github.com/andneg7/rivela360-mg4/releases/latest) (sezione *Assets*). Le beta più nuove sono nella cartella [`releases/`](releases/).
 2. Copialo su una chiavetta USB, aprilo dal gestore file dell'auto e tocca *Installa*.
 3. Alla prima apertura, da fermo in P, leggi e accetta le avvertenze. **Provala sempre da fermo prima di usarla in manovra: è solo un ausilio, la responsabilità della manovra resta tua.**
 
