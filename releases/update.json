@@ -10,12 +10,12 @@
       "notes": "Versione di prova di Rivela 360 (beta sperimentale): vista 360°, vista 3D, linee d'ingombro, sensori, avviso traffico trasversale, modalità autolavaggio, registrazione. Leggi le avvertenze e usala con cautela."
     },
     "beta": {
-      "versionCode": 21109,
-      "versionName": "2.11 beta 9",
-      "file": "releases/Rivela360-v2.11-beta9.apk",
-      "sha256": "0378a2a1d4b4a0adb778d65911a7d26673b8c391f6a29b191e74f745251060b4",
-      "size": 2951855,
-      "notes": "Beta 9: nuova auto vista dall'alto, ricavata dal modello 3D, negli 8 colori del menu, con il tetto nero o in tinta (nuova opzione «Tetto», vale anche per la vista 3D). Nuovo avviso di attenzione, più discreto e chiudibile con la X. L'app non usa più immagini né testi dell'app di serie. Include la beta 8. Versione sperimentale: usare con cautela."
+      "versionCode": 21110,
+      "versionName": "2.11 beta 10",
+      "file": "releases/Rivela360-v2.11-beta10.apk",
+      "sha256": "f40cb370a1446dd1539752821104d271feca56447035ac0d92a66932c11fc66b",
+      "size": 2960047,
+      "notes": "Beta 10: nuova vista ruote (pulsante col cerchione accanto al 3D): quattro riquadri raddrizzati sulle ruote, con il bordo dell'auto, e apertura automatica a ruote sterzate sotto i 10 km/h. Pulsanti e icone rinnovati. Nuova opzione «Movimento della vista 3D: Calmo». Prima retromarcia dopo l'accensione più affidabile. Download possibile anche quando GitHub limita le richieste (hotspot). Tolto l'arco completo da fermi. Versione sperimentale: usare con cautela."
     }
   }
 }

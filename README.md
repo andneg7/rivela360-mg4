@@ -45,7 +45,8 @@
 ## Cosa fa
 - **Vista 360°** costruita dalle 4 telecamere, accanto alla vista di una telecamera alla volta o alla **vista 3D** con il modello dell'auto.
 - **Auto vista dall'alto realistica**, ricavata dal modello 3D, negli 8 colori MG4, con il tetto nero o in tinta con la carrozzeria (anche nella vista 3D).
-- **Linee dinamiche** che seguono lo sterzo, **linee d'ingombro dei fianchi** con l'arco completo da fermi e **barre dei sensori** anche in 3D.
+- **Linee dinamiche** che seguono lo sterzo, **linee d'ingombro dei fianchi** e **barre dei sensori** anche in 3D.
+- **Vista ruote**: quattro riquadri raddrizzati sulle ruote anteriori e posteriori, con il bordo dell'auto a terra, per avvicinarsi ai cordoli. Si apre dal pulsante o da sola a ruote sterzate sotto i 10 km/h.
 - **Sensori di parcheggio** con la distanza in cm e zoom automatico sull'ostacolo, e avviso di **traffico trasversale** in retromarcia.
 - **Modalità autolavaggio**: fasce azzurre delle ruote anteriori per entrare nel binario dei tunnel di lavaggio, anche in 3D con l'auto semitrasparente.
 - **Apertura automatica** in retromarcia e con le frecce, con velocità di apertura e chiusura regolabili.
@@ -112,6 +113,7 @@ Testo completo delle condizioni: [**LICENSE**](LICENSE).
 
 - **Rivela 360** è gratuita per uso personale e non commerciale. Il codice non è pubblicato. Non è consentito venderla né distribuirla a pagamento.
 - **Modello 3D dell'auto**: «[2025 MG MG4 (GLB)(mgmotor.com.mx)](https://sketchfab.com/3d-models/2025-mg-mg4-glbmgmotorcommx-ee2e3b0e1a7b481cb2c08e6fc6d2ed9e)» di **MattDoesBlender** (Sketchfab), licenza [**CC BY-NC-SA 4.0**](https://creativecommons.org/licenses/by-nc-sa/4.0/). Il file `car3d-pub-v4.bin` è una versione **modificata**: semplificata (da circa 1,1 milioni a circa 550.000 triangoli), divisa in gruppi e riordinata per la scheda grafica, con la carrozzeria ricolorata di nero, interni e pinze dei freni tolti, i cerchi sostituiti da un disegno e i loghi del costruttore e le targhe rimossi. Anche le immagini dell'auto vista dall'alto usate dall'app sono ricavate da questo modello. Sono distribuite con la stessa licenza: solo uso non commerciale, con questa attribuzione.
+- **Vista ruote**: idea e disposizione 2×2 da [MG4-360-Camera-App](https://github.com/jamakr4/MG4-360-Camera-App) di **jamakr4**, con il suo permesso. Il codice è nostro.
 - **Caratteri**: Exo 2, Chakra Petch e Orbitron, con licenza SIL Open Font License 1.1.
 - L'app non contiene né usa immagini o testi dell'app di serie: auto vista dall'alto, icone e avvisi sono disegnati da noi. Legge dall'auto solo i dati che servono a funzionare (telecamere, marcia, sterzo, sensori, calibrazione).
 - MG, MG4 e SAIC sono marchi dei rispettivi proprietari, citati solo per indicare la compatibilità.
