@@ -5,7 +5,7 @@ name: Release automatiche
 on:
   push:
     branches: [main]
-    paths: ['releases/update.json']
+    paths: ['releases/update.json', 'releases/notes/**']
   workflow_dispatch:
 permissions:
   contents: write
