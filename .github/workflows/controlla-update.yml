@@ -1,0 +1,15 @@
+name: Controlla update.json
+# A ogni modifica di releases/ verifica che update.json sia giusto (percorso, sha256, size, versione) e che non ci siano token.
+on:
+  push:
+    paths: ['releases/**', '.github/scripts/**']
+  pull_request:
+    paths: ['releases/**']
+permissions:
+  contents: read
+jobs:
+  controlla:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 .github/scripts/check_update.py .

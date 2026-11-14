@@ -1,0 +1,37 @@
+name: Crea la release
+# Si avvia mettendo un'etichetta, per esempio v2.11-beta11 (corrisponde a releases/Rivela360-v2.11-beta11.apk).
+# Crea la release con l'APK e le note di update.json. Stabile = Latest, altrimenti pre-release.
+on:
+  push:
+    tags: ['v*']
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Controlla update.json
+        run: python3 .github/scripts/check_update.py .
+      - name: Crea la release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG: ${{ github.ref_name }}
+        run: |
+          set -e
+          APK="releases/Rivela360-${TAG}.apk"
+          test -f "$APK" || { echo "ERRORE: manca $APK (l'etichetta $TAG deve avere l'APK corrispondente)"; exit 1; }
+          python3 - "$APK" > meta.txt <<'PY'
+          import json, sys
+          apk = sys.argv[1]
+          d = json.load(open("releases/update.json", encoding="utf-8"))["channels"]
+          stable = d.get("stabile", {}).get("file") == apk
+          note = next((c["notes"] for c in d.values() if c.get("file") == apk), "")
+          print("stable" if stable else "pre")
+          print(note)
+          PY
+          KIND=$(head -1 meta.txt)
+          tail -n +2 meta.txt > notes.md
+          printf '\n\nLeggi le avvertenze prima di installare: DISCLAIMER.md\n' >> notes.md
+          if [ "$KIND" = stable ]; then FLAGS="--latest"; else FLAGS="--prerelease --latest=false"; fi
+          gh release create "$TAG" "$APK" --title "Rivela 360 ${TAG#v}" --notes-file notes.md $FLAGS
