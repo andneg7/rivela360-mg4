@@ -7,15 +7,15 @@
       "file": "releases/Rivela360-v2.11-beta9.apk",
       "sha256": "0378a2a1d4b4a0adb778d65911a7d26673b8c391f6a29b191e74f745251060b4",
       "size": 2951855,
-      "notes": "Versione consigliata di Rivela 360 (beta 9, provata sulle auto dei tester): vista 360°, vista 3D, auto vista dall'alto negli 8 colori con tetto nero o in tinta, linee d'ingombro, sensori, traffico trasversale, autolavaggio, registrazione. Resta una versione sperimentale: leggi le avvertenze e usala con cautela."
+      "notes": "Versione consigliata di Rivela 360 (beta 9, provata sulle auto dei tester): vista 360\u00b0, vista 3D, auto vista dall'alto negli 8 colori con tetto nero o in tinta, linee d'ingombro, sensori, traffico trasversale, autolavaggio, registrazione. Resta una versione sperimentale: leggi le avvertenze e usala con cautela."
     },
     "beta": {
-      "versionCode": 21110,
-      "versionName": "2.11 beta 10",
-      "file": "releases/Rivela360-v2.11-beta10.apk",
-      "sha256": "f40cb370a1446dd1539752821104d271feca56447035ac0d92a66932c11fc66b",
-      "size": 2960047,
-      "notes": "Beta 10: nuova vista ruote (pulsante col cerchione accanto al 3D): quattro riquadri raddrizzati sulle ruote, con il bordo dell'auto, e apertura automatica a ruote sterzate sotto i 10 km/h. Pulsanti e icone rinnovati. Nuova opzione «Movimento della vista 3D: Calmo». Prima retromarcia dopo l'accensione più affidabile. Download possibile anche quando GitHub limita le richieste (hotspot). Tolto l'arco completo da fermi. Versione sperimentale: usare con cautela."
+      "versionCode": 21111,
+      "versionName": "2.11 beta 11",
+      "file": "releases/Rivela360-v2.11-beta11.apk",
+      "sha256": "0968074843e95d5bcce2cf75d42d8407720e1933a91a456591227ee1e2c0f0d5",
+      "size": 3152735,
+      "notes": "Beta 11: funziona insieme a MG4-360-Camera-App di jamakr4 (all'apertura Rivela chiede all'altra app di lasciare le telecamere e gliele rid\u00e0 alla chiusura). Vista ruote: se la spegni a mano non si riapre pi\u00f9 da sola durante la manovra. Logo di Rivela 360 nei crediti. Nuova finestra \u00abNovit\u00e0\u00bb che compare una volta dopo ogni aggiornamento. Versione sperimentale: usare con cautela."
     }
   }
 }
