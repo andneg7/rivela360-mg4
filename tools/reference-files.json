@@ -1,0 +1,238 @@
+{
+  "format_version": 1,
+  "prepared_on": "2026-11-15",
+  "source_repository": "https://github.com/jamakr4/MG4-360-Camera-App",
+  "source_branch": "v0.9",
+  "artwork_license": "CC BY-NC-SA 4.0",
+  "artwork_license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "scene": {
+    "blend": "mg4-topview.blend",
+    "blue_reference": "mg4-topview.png",
+    "orientation_check": "mg4-orientation-check.png",
+    "metadata": "render-metadata.json",
+    "attribution": "ATTRIBUTION-SCENE.md"
+  },
+  "model3d": {
+    "obj": "car.obj",
+    "mtl": "car.mtl",
+    "atlas": "car.png",
+    "binary": "car.meshbin",
+    "metadata": "model.json",
+    "paint_manifest": "paint-variants.json",
+    "runtime_format": "MG4MSH01 version 1; not the Rivela car3d-pub-v4.bin format",
+    "paints": {
+      "dover_white": "paint_dover_white.png",
+      "andes_grey": "paint_andes_grey.png",
+      "pebble_black": "paint_pebble_black.png",
+      "diamond_red": "paint_diamond_red.png",
+      "fizzy_orange": "paint_fizzy_orange.png",
+      "piccadilly_blue": "paint_piccadilly_blue.png",
+      "cosmic_silver": "paint_cosmic_silver.png",
+      "hunter_green": "paint_hunter_green.png"
+    },
+    "attribution": "ATTRIBUTION-3D.md"
+  },
+  "birdseye": {
+    "registration": "topview.json",
+    "color_manifest": "color-renders.json",
+    "colors": {
+      "dover_white": "topview_dover_white.png",
+      "andes_grey": "topview_andes_grey.png",
+      "pebble_black": "topview_pebble_black.png",
+      "diamond_red": "topview_diamond_red.png",
+      "fizzy_orange": "topview_fizzy_orange.png",
+      "piccadilly_blue": "topview_piccadilly_blue.png",
+      "cosmic_silver": "topview_cosmic_silver.png",
+      "hunter_green": "topview_hunter_green.png"
+    },
+    "attribution": "ATTRIBUTION-2D.md"
+  },
+  "files": {
+    "ATTRIBUTION-2D.md": {
+      "source_path": "app/src/main/assets/mg4/birdseye/ATTRIBUTION.md",
+      "source_sha256": "ae93914589c29be1844d6f23062d1a4eb46d2ff9fdae220ad6375c29bf10158a",
+      "sha256": "0bcfe43a2784a3ef39ec89089b5f1e32c09d51ebd17525c3d28b20c6d02fab77",
+      "bytes": 2392
+    },
+    "ATTRIBUTION-3D.md": {
+      "source_path": "app/src/main/assets/mg4/model3d/ATTRIBUTION.md",
+      "source_sha256": "39b60b3f3ecbb552ac89fd86397ffcbf4a19d9e820af0fe7f9214364d1424f5e",
+      "sha256": "52bed4fc079457cf941ecc8f1de0c818a4951fee6b9fb4a4d2f55ae82d23176f",
+      "bytes": 2588
+    },
+    "ATTRIBUTION-SCENE.md": {
+      "source_path": "tools/birdseye/mg4-topview.local/ATTRIBUTION.md",
+      "source_sha256": "71a2939d59c21fceabbd0f0adc6b86e8bfc0b93da6a3cb5ef826892a9ad16fca",
+      "sha256": "71a2939d59c21fceabbd0f0adc6b86e8bfc0b93da6a3cb5ef826892a9ad16fca",
+      "bytes": 1622
+    },
+    "car.meshbin": {
+      "source_path": "app/src/main/assets/mg4/model3d/car.meshbin",
+      "source_sha256": "d984ba431d71891e419860ecafd4a4a1b087c1257521f2c73dd74fa0169141db",
+      "sha256": "d984ba431d71891e419860ecafd4a4a1b087c1257521f2c73dd74fa0169141db",
+      "bytes": 8447756
+    },
+    "car.mtl": {
+      "source_path": "app/src/main/assets/mg4/model3d/car.mtl",
+      "source_sha256": "1ff74721f42afc0b10588252628aa2696e7612929ddd1a56fcad0e737468621c",
+      "sha256": "1ff74721f42afc0b10588252628aa2696e7612929ddd1a56fcad0e737468621c",
+      "bytes": 36
+    },
+    "car.obj": {
+      "source_path": "app/src/main/assets/mg4/model3d/car.obj",
+      "source_sha256": "06fc9937de92672581ec416dd8ae2ac15dd74fe33cc01ed5ff83422b59841308",
+      "sha256": "06fc9937de92672581ec416dd8ae2ac15dd74fe33cc01ed5ff83422b59841308",
+      "bytes": 20929846
+    },
+    "car.png": {
+      "source_path": "app/src/main/assets/mg4/model3d/car.png",
+      "source_sha256": "6da26535270927b6113dfafd2c5d75655186221e900872520fcb71e92d2dd906",
+      "sha256": "6da26535270927b6113dfafd2c5d75655186221e900872520fcb71e92d2dd906",
+      "bytes": 14901
+    },
+    "color-renders.json": {
+      "source_path": "app/src/main/assets/mg4/birdseye/color-renders.json",
+      "source_sha256": "17e3865dce923b65112e1cfaa211b2fbd3f2960eddbc765eb0bca17b79c16b0b",
+      "sha256": "17e3865dce923b65112e1cfaa211b2fbd3f2960eddbc765eb0bca17b79c16b0b",
+      "bytes": 2523
+    },
+    "mg4-orientation-check.png": {
+      "source_path": "tools/birdseye/mg4-topview.local/mg4-orientation-check.png",
+      "source_sha256": "d62def0ac92218284374af4e91674b91384c99acaa69579b3a8b9a1bbf3256de",
+      "sha256": "d62def0ac92218284374af4e91674b91384c99acaa69579b3a8b9a1bbf3256de",
+      "bytes": 467308
+    },
+    "mg4-topview.blend": {
+      "source_path": "tools/birdseye/mg4-topview.local/mg4-topview.blend",
+      "source_sha256": "938a68b0997095e38747eb11b0c97631bda455a09885edc0aa4f8b2f39e5622f",
+      "sha256": "938a68b0997095e38747eb11b0c97631bda455a09885edc0aa4f8b2f39e5622f",
+      "bytes": 35985782
+    },
+    "mg4-topview.png": {
+      "source_path": "tools/birdseye/mg4-topview.local/mg4-topview.png",
+      "source_sha256": "146fa61891fd82f136296ea7ce1f646384ab9291e539da723a5b6e5be0ab9926",
+      "sha256": "146fa61891fd82f136296ea7ce1f646384ab9291e539da723a5b6e5be0ab9926",
+      "bytes": 1180533
+    },
+    "model.json": {
+      "source_path": "app/src/main/assets/mg4/model3d/model.json",
+      "source_sha256": "469964a19d289975bfffe8593981fb6472e7d6c22cb652f920e2d29dc332e339",
+      "sha256": "469964a19d289975bfffe8593981fb6472e7d6c22cb652f920e2d29dc332e339",
+      "bytes": 2217
+    },
+    "paint-variants.json": {
+      "source_path": "app/src/main/assets/mg4/model3d/paint-variants.json",
+      "source_sha256": "651af19393edf61a93fa0c99b531945e4748c22bb2710b5f8171b68bde9d7c6c",
+      "sha256": "651af19393edf61a93fa0c99b531945e4748c22bb2710b5f8171b68bde9d7c6c",
+      "bytes": 3018
+    },
+    "paint_andes_grey.png": {
+      "source_path": "app/src/main/assets/mg4/model3d/paints/andes_grey.png",
+      "source_sha256": "aff5b81641f84fcac6af91b5ab6220eca3dfa9264d7c5d9cf72ef084925a911a",
+      "sha256": "aff5b81641f84fcac6af91b5ab6220eca3dfa9264d7c5d9cf72ef084925a911a",
+      "bytes": 14900
+    },
+    "paint_cosmic_silver.png": {
+      "source_path": "app/src/main/assets/mg4/model3d/paints/cosmic_silver.png",
+      "source_sha256": "e7fd02c26ad05c4d785a5117142d57177795f3a8a0445c4e33f5d12615b10aad",
+      "sha256": "e7fd02c26ad05c4d785a5117142d57177795f3a8a0445c4e33f5d12615b10aad",
+      "bytes": 14898
+    },
+    "paint_diamond_red.png": {
+      "source_path": "app/src/main/assets/mg4/model3d/paints/diamond_red.png",
+      "source_sha256": "c871359785180bea150dec4bcb1760aa9d12724060dc52aea1c0ca93c571f819",
+      "sha256": "c871359785180bea150dec4bcb1760aa9d12724060dc52aea1c0ca93c571f819",
+      "bytes": 14901
+    },
+    "paint_dover_white.png": {
+      "source_path": "app/src/main/assets/mg4/model3d/paints/dover_white.png",
+      "source_sha256": "a1f02794a97ad62446ac8020e2ac1bb500494f01226e840525f9dcb80b81b089",
+      "sha256": "a1f02794a97ad62446ac8020e2ac1bb500494f01226e840525f9dcb80b81b089",
+      "bytes": 14896
+    },
+    "paint_fizzy_orange.png": {
+      "source_path": "app/src/main/assets/mg4/model3d/paints/fizzy_orange.png",
+      "source_sha256": "6149aea7c9c6fd45bb898bd071e34bf63a7c6c22dfeaaee8fade5df5fe208b7c",
+      "sha256": "6149aea7c9c6fd45bb898bd071e34bf63a7c6c22dfeaaee8fade5df5fe208b7c",
+      "bytes": 14901
+    },
+    "paint_hunter_green.png": {
+      "source_path": "app/src/main/assets/mg4/model3d/paints/hunter_green.png",
+      "source_sha256": "6b3002094fef082738f90c48a3230f6b7154268890c76afca7e4974720d9a557",
+      "sha256": "6b3002094fef082738f90c48a3230f6b7154268890c76afca7e4974720d9a557",
+      "bytes": 14899
+    },
+    "paint_pebble_black.png": {
+      "source_path": "app/src/main/assets/mg4/model3d/paints/pebble_black.png",
+      "source_sha256": "cd75264075313145b9080ca44b531d36c1698879df041fbd1a84306361cf9ace",
+      "sha256": "cd75264075313145b9080ca44b531d36c1698879df041fbd1a84306361cf9ace",
+      "bytes": 14898
+    },
+    "paint_piccadilly_blue.png": {
+      "source_path": "app/src/main/assets/mg4/model3d/paints/piccadilly_blue.png",
+      "source_sha256": "6da26535270927b6113dfafd2c5d75655186221e900872520fcb71e92d2dd906",
+      "sha256": "6da26535270927b6113dfafd2c5d75655186221e900872520fcb71e92d2dd906",
+      "bytes": 14901
+    },
+    "render-metadata.json": {
+      "source_path": "tools/birdseye/mg4-topview.local/render-metadata.json",
+      "source_sha256": "5827db994a043aad180985aead7ff84fe27991c1da6f7bdf5860e9eaa0e9d519",
+      "sha256": "5827db994a043aad180985aead7ff84fe27991c1da6f7bdf5860e9eaa0e9d519",
+      "bytes": 1895
+    },
+    "topview.json": {
+      "source_path": "app/src/main/assets/mg4/birdseye/topview.json",
+      "source_sha256": "5827db994a043aad180985aead7ff84fe27991c1da6f7bdf5860e9eaa0e9d519",
+      "sha256": "5827db994a043aad180985aead7ff84fe27991c1da6f7bdf5860e9eaa0e9d519",
+      "bytes": 1895
+    },
+    "topview_andes_grey.png": {
+      "source_path": "app/src/main/assets/mg4/birdseye/colors/andes_grey.png",
+      "source_sha256": "f01b2246cfd317b108887f7acf2dac35b3aa3e3ec6fe1098ffa0d184526d66bf",
+      "sha256": "f01b2246cfd317b108887f7acf2dac35b3aa3e3ec6fe1098ffa0d184526d66bf",
+      "bytes": 1125925
+    },
+    "topview_cosmic_silver.png": {
+      "source_path": "app/src/main/assets/mg4/birdseye/colors/cosmic_silver.png",
+      "source_sha256": "5d26b7dc1e840787dd27038db13f297bdbd86a94e669009c307bfd40f9b04583",
+      "sha256": "5d26b7dc1e840787dd27038db13f297bdbd86a94e669009c307bfd40f9b04583",
+      "bytes": 1126741
+    },
+    "topview_diamond_red.png": {
+      "source_path": "app/src/main/assets/mg4/birdseye/colors/diamond_red.png",
+      "source_sha256": "4bcbd1a07e6bdcc616b6070b9c211b3a93398126b4fd601f8a8fefa0508b43ec",
+      "sha256": "4bcbd1a07e6bdcc616b6070b9c211b3a93398126b4fd601f8a8fefa0508b43ec",
+      "bytes": 1190617
+    },
+    "topview_dover_white.png": {
+      "source_path": "app/src/main/assets/mg4/birdseye/colors/dover_white.png",
+      "source_sha256": "aef4031023f40427c8cb2d1bfe2a7eb4bf3659774253d878b0fc0da221d875a9",
+      "sha256": "aef4031023f40427c8cb2d1bfe2a7eb4bf3659774253d878b0fc0da221d875a9",
+      "bytes": 1117116
+    },
+    "topview_fizzy_orange.png": {
+      "source_path": "app/src/main/assets/mg4/birdseye/colors/fizzy_orange.png",
+      "source_sha256": "a72c9b3a85cd10588bfc7b64799b31d45e002678d6148f3c79abc841de832d0a",
+      "sha256": "a72c9b3a85cd10588bfc7b64799b31d45e002678d6148f3c79abc841de832d0a",
+      "bytes": 1180858
+    },
+    "topview_hunter_green.png": {
+      "source_path": "app/src/main/assets/mg4/birdseye/colors/hunter_green.png",
+      "source_sha256": "b416f9c01958f839935c2f864ca5a77393e2af99c37488109b6052d1b741b782",
+      "sha256": "b416f9c01958f839935c2f864ca5a77393e2af99c37488109b6052d1b741b782",
+      "bytes": 1117538
+    },
+    "topview_pebble_black.png": {
+      "source_path": "app/src/main/assets/mg4/birdseye/colors/pebble_black.png",
+      "source_sha256": "f452a238125447214e741f9d0e5dc4ee6d35483f67f366903d5577d74ae6a493",
+      "sha256": "f452a238125447214e741f9d0e5dc4ee6d35483f67f366903d5577d74ae6a493",
+      "bytes": 1093773
+    },
+    "topview_piccadilly_blue.png": {
+      "source_path": "app/src/main/assets/mg4/birdseye/colors/piccadilly_blue.png",
+      "source_sha256": "146fa61891fd82f136296ea7ce1f646384ab9291e539da723a5b6e5be0ab9926",
+      "sha256": "146fa61891fd82f136296ea7ce1f646384ab9291e539da723a5b6e5be0ab9926",
+      "bytes": 1180533
+    }
+  }
+}
