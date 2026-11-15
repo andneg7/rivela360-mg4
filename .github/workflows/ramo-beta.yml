@@ -1,0 +1,26 @@
+name: Allinea il ramo beta
+# Il canale Beta dell'app (versione pubblica) legge releases/update.json dal ramo «beta».
+# A ogni salvataggio su main il ramo beta viene portato allo stesso punto, così una beta pubblicata arriva sempre via OTA.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: ramo-beta
+  cancel-in-progress: false
+jobs:
+  allinea:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Porta beta su main (solo avanzamento, mai cancellare)
+        run: |
+          git fetch origin beta || true
+          if git rev-parse -q --verify origin/beta >/dev/null && ! git merge-base --is-ancestor origin/beta HEAD; then
+            echo "ERRORE: il ramo beta ha salvataggi che main non ha: va sistemato a mano"; exit 1
+          fi
+          git push origin HEAD:refs/heads/beta
