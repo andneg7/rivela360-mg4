@@ -7,7 +7,7 @@
 
 Thanks for helping out! **Beta** versions are test builds: your help is needed to find what doesn't work on your car before other people use it. Read the [Warnings](DISCLAIMER.en.md) and the [Guide](GUIDE.en.md) (installation and going back to the stock 360) first.
 
-> So far tried only on **MG4 Electric Luxury MY23, FICM head unit, firmware SWI68 R67**. If you have another version (for example SWI133), your result is especially valuable: always state the firmware.
+> So far tried on **MG4 Electric Luxury MY23, FICM head unit, firmware SWI68 R67** and on **SWI133**. If you have another version, your result is especially valuable: always state the firmware.
 
 ## Before you start
 - Choose the channel in *Settings › Updates*: **Beta** to receive test builds, **Stable** for approved versions only.

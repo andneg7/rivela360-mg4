@@ -39,19 +39,20 @@
 > | Firmware | Stato |
 > |---|---|
 > | **SWI68 R67** | ✅ **Testato** |
-> | **SWI133** | ⚠️ **Non testato.** L'analisi del firmware non mostra differenze rilevanti (stessa base Android 9, stessa app 360 di serie, stessa firma di sistema), ma solo una prova sull'auto lo conferma |
+> | **SWI133** | ✅ **Funziona** (provato da un tester). Stessa base Android 9, stessa app 360 di serie, stessa firma di sistema |
 > | Altri | ❓ Sconosciuto |
 
 ## Cosa fa
 - **Vista 360°** costruita dalle 4 telecamere, accanto alla vista di una telecamera alla volta o alla **vista 3D** con il modello dell'auto.
 - **Auto vista dall'alto realistica**, ricavata dal modello 3D, negli 8 colori MG4, con il tetto nero o in tinta con la carrozzeria (anche nella vista 3D).
 - **Linee dinamiche** che seguono lo sterzo, **linee d'ingombro dei fianchi** e **barre dei sensori** anche in 3D.
-- **Vista ruote**: quattro riquadri raddrizzati sulle ruote anteriori e posteriori, con il bordo dell'auto a terra, per avvicinarsi ai cordoli. Si apre dal pulsante o da sola a ruote sterzate sotto i 10 km/h.
+- **Vista ruote**: quattro riquadri raddrizzati sulle ruote anteriori e posteriori, con il bordo dell'auto a terra, per avvicinarsi ai cordoli. Si apre dal pulsante o da sola a ruote sterzate (oltre 12°) sotto i 10 km/h; se la spegni a mano resta spenta per tutta la manovra.
 - **Sensori di parcheggio** con la distanza in cm e zoom automatico sull'ostacolo, e avviso di **traffico trasversale** in retromarcia.
 - **Modalità autolavaggio**: fasce azzurre delle ruote anteriori per entrare nel binario dei tunnel di lavaggio, anche in 3D con l'auto semitrasparente.
 - **Apertura automatica** in retromarcia e con le frecce, con velocità di apertura e chiusura regolabili.
 - **Rete di sicurezza**: se in retromarcia l'app non mostra l'immagine entro 2,5 secondi, si apre la 360 di serie.
 - **Foto, video e registrazione automatica delle manovre**, anche su chiavetta USB.
+- **Compatibile con MG4-360-Camera-App** di jamakr4: quando Rivela apre le telecamere chiede all'altra app di lasciarle e gliele restituisce alla chiusura (serve la sua versione con questa funzione).
 - Lingue: inglese, italiano, tedesco, francese e spagnolo.
 
 ## Come si presenta
@@ -100,7 +101,7 @@ Vuoi aiutare a provarla? Le istruzioni, con l'elenco delle prove e il modulo per
 Impostazioni › *Prove e avanzate* › Diagnosi › *Salva e invia i log di diagnosi*: il file viene salvato in `Download/MG4-360-log`. Apri una [segnalazione (Issue) su GitHub](https://github.com/andneg7/rivela360-mg4/issues/new) e allega il file, indicando modello e anno dell'auto, firmware, versione dell'app e cosa stavi facendo. Le Issue sono pubbliche: niente dati personali.
 
 ## Aggiornamenti
-L'app controlla gli aggiornamenti da questa repository (Impostazioni › Aggiornamenti). L'elenco delle versioni è in [`releases/`](releases/). I canali sono due: **Stabile** (predefinito) e **Beta**, che riceve per prima le versioni di prova.
+L'app controlla gli aggiornamenti da questa repository (Impostazioni › Aggiornamenti). L'elenco delle versioni è in [`releases/`](releases/). I canali sono due: **Stabile** (predefinito) e **Beta**, che riceve per prima le versioni di prova. Dopo ogni aggiornamento l'app mostra una volta la finestra **Novità** con cosa è cambiato (si rilegge in Impostazioni › Aggiornamenti).
 
 ## Freeware e donazioni
 **Rivela 360 è freeware**: si scarica e si usa gratis, senza pubblicità, senza funzioni a pagamento e senza registrazione. Non è open source (il codice non è pubblicato).
@@ -113,7 +114,7 @@ Testo completo delle condizioni: [**LICENSE**](LICENSE).
 
 - **Rivela 360** è gratuita per uso personale e non commerciale. Il codice non è pubblicato. Non è consentito venderla né distribuirla a pagamento.
 - **Modello 3D dell'auto**: «[2025 MG MG4 (GLB)(mgmotor.com.mx)](https://sketchfab.com/3d-models/2025-mg-mg4-glbmgmotorcommx-ee2e3b0e1a7b481cb2c08e6fc6d2ed9e)» di **MattDoesBlender** (Sketchfab), licenza [**CC BY-NC-SA 4.0**](https://creativecommons.org/licenses/by-nc-sa/4.0/). Il file `car3d-pub-v4.bin` è una versione **modificata**: semplificata (da circa 1,1 milioni a circa 550.000 triangoli), divisa in gruppi e riordinata per la scheda grafica, con la carrozzeria ricolorata di nero, interni e pinze dei freni tolti, i cerchi sostituiti da un disegno e i loghi del costruttore e le targhe rimossi. Anche le immagini dell'auto vista dall'alto usate dall'app sono ricavate da questo modello. Sono distribuite con la stessa licenza: solo uso non commerciale, con questa attribuzione.
-- **Vista ruote**: idea e disposizione 2×2 da [MG4-360-Camera-App](https://github.com/jamakr4/MG4-360-Camera-App) di **jamakr4**, con il suo permesso. Il codice è nostro.
+- **Vista ruote**: idea e disposizione 2×2 da [MG4-360-Camera-App](https://github.com/jamakr4/MG4-360-Camera-App) di **jamakr4**, con il suo permesso. Il codice è nostro. Anche la collaborazione tra le due app sulle telecamere (Release/Resume) è nata con lui.
 - **Caratteri**: Exo 2, Chakra Petch e Orbitron, con licenza SIL Open Font License 1.1.
 - L'app non contiene né usa immagini o testi dell'app di serie: auto vista dall'alto, icone e avvisi sono disegnati da noi. Legge dall'auto solo i dati che servono a funzionare (telecamere, marcia, sterzo, sensori, calibrazione).
 - MG, MG4 e SAIC sono marchi dei rispettivi proprietari, citati solo per indicare la compatibilità.

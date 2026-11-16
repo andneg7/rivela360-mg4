@@ -5,7 +5,7 @@
 Questa guida vale per la prova di **Rivela 360** su MG4 Electric. Leggi prima le [Avvertenze](DISCLAIMER.md).
 
 ## Prima di cominciare
-- ✅ **Testata solo su MG4 Electric Luxury MY23, unità FICM, firmware SWI68 R67 (Android 9).** Su **SWI133** non è testata (l'analisi del firmware non mostra differenze rilevanti, ma non è una prova). Se la tua auto è diversa, scrivi allo sviluppatore prima di installarla.
+- ✅ **Testata su MG4 Electric Luxury MY23, unità FICM, firmware SWI68 R67 (Android 9).** Su **SWI133** funziona (provata da un tester). Se la tua auto è diversa, scrivi allo sviluppatore prima di installarla.
 - Controlla la tua versione: `adb shell getprop ro.build.fingerprint` e, per le telecamere, `adb shell ls -l /dev/video*`.
 - Prima di installare, **salva una copia** di `/configure/camera_calibdata.bin` e tieni pronto il comando per tornare alla 360 di serie (sezione sotto).
 - Fai la prima prova **da fermo, in P, con il piede sul freno**, in un posto sicuro. Non usarla in manovra finché non hai visto che funziona sulla tua auto.

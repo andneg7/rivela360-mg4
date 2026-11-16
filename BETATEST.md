@@ -7,7 +7,7 @@
 
 Grazie per la prova! Le versioni **beta** sono di test: il tuo aiuto serve a scoprire cosa non va sulla tua auto prima che la usi altra gente. Leggi prima le [Avvertenze](DISCLAIMER.md) e la [Guida](GUIDA.md) (installazione e ritorno alla 360 di serie).
 
-> Provata finora solo su **MG4 Electric Luxury MY23, unità FICM, firmware SWI68 R67**. Se hai un'altra versione (per esempio SWI133), il tuo risultato è particolarmente prezioso: scrivi sempre il firmware.
+> Provata finora su **MG4 Electric Luxury MY23, unità FICM, firmware SWI68 R67** e su **SWI133**. Se hai un'altra versione, il tuo risultato è particolarmente prezioso: scrivi sempre il firmware.
 
 ## Prima di cominciare
 - Scegli il canale in *Impostazioni › Aggiornamenti*: **Beta** per ricevere le versioni di prova, **Stabile** per le sole versioni approvate.

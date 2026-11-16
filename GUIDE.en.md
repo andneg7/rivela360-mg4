@@ -5,7 +5,7 @@
 This guide covers the trial of **Rivela 360** on the MG4 Electric. Read the [Warnings](DISCLAIMER.en.md) first.
 
 ## Before you start
-- ✅ **Tested only on MG4 Electric Luxury MY23, FICM head unit, firmware SWI68 R67 (Android 9).** On **SWI133** it is not tested (a firmware analysis shows no relevant differences, but that is not proof). If your car is different, write to the developer before installing.
+- ✅ **Tested on MG4 Electric Luxury MY23, FICM head unit, firmware SWI68 R67 (Android 9).** On **SWI133** it works (tried by a tester). If your car is different, write to the developer before installing.
 - Check your version: `adb shell getprop ro.build.fingerprint` and, for the cameras, `adb shell ls -l /dev/video*`.
 - Before installing, **save a copy** of `/configure/camera_calibdata.bin` and keep the command to go back to the stock 360 at hand (section below).
 - Do the first test **stationary, in P, with your foot on the brake**, in a safe place. Don't use it while manoeuvring until you have seen that it works on your car.
