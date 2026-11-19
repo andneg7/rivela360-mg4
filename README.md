@@ -46,14 +46,15 @@
 - **Vista 360°** costruita dalle 4 telecamere, accanto alla vista di una telecamera alla volta o alla **vista 3D** con il modello dell'auto.
 - **Auto vista dall'alto realistica**, ricavata dal modello 3D, negli 8 colori MG4, con il tetto nero o in tinta con la carrozzeria (anche nella vista 3D).
 - **Linee dinamiche** che seguono lo sterzo, **linee d'ingombro dei fianchi** e **barre dei sensori** anche in 3D.
-- **Vista ruote**: quattro riquadri raddrizzati sulle ruote anteriori e posteriori, con il bordo dell'auto a terra, per avvicinarsi ai cordoli. Si apre dal pulsante o da sola a ruote sterzate (oltre 12°) sotto i 10 km/h; se la spegni a mano resta spenta per tutta la manovra.
+- **Vista ruote**: due immagini raddrizzate, sinistra e destra, accanto alle ruote anteriori, con una linea rossa sul bordo dell'auto, per avvicinarsi ai cordoli. Si apre dal pulsante in alto nella vista 360° o da sola con il volante quasi a fine corsa (almeno 450°) sotto i 10 km/h; se la spegni a mano resta spenta per tutta la manovra.
+- **Luce bilanciata** tra le quattro telecamere, nella vista 360° e nel 3D: le giunture tra le immagini si vedono meno.
 - **Sensori di parcheggio** con la distanza in cm e zoom automatico sull'ostacolo, e avviso di **traffico trasversale** in retromarcia.
 - **Modalità autolavaggio**: fasce azzurre delle ruote anteriori per entrare nel binario dei tunnel di lavaggio, anche in 3D con l'auto semitrasparente.
 - **Apertura automatica** in retromarcia e con le frecce, con velocità di apertura e chiusura regolabili.
 - **Rete di sicurezza**: se in retromarcia l'app non mostra l'immagine entro 2,5 secondi, si apre la 360 di serie.
 - **Foto, video e registrazione automatica delle manovre**, anche su chiavetta USB.
 - **Compatibile con MG4-360-Camera-App** di jamakr4: quando Rivela apre le telecamere chiede all'altra app di lasciarle e gliele restituisce alla chiusura (serve la sua versione con questa funzione).
-- Lingue: inglese, italiano, tedesco, francese e spagnolo.
+- Lingue: inglese, italiano, tedesco, francese, spagnolo e ceco.
 
 ## Come si presenta
 > Le immagini della retromarcia e della vista 3D sono **mockup** (schermata simulata e render del modello 3D); quelle delle impostazioni sono ricostruzioni fedeli delle schermate dell'app. Nessuna è una foto dell'auto. Nell'auto l'aspetto può differire in qualche dettaglio.
@@ -114,7 +115,7 @@ Testo completo delle condizioni: [**LICENSE**](LICENSE).
 
 - **Rivela 360** è gratuita per uso personale e non commerciale. Il codice non è pubblicato. Non è consentito venderla né distribuirla a pagamento.
 - **Modello 3D dell'auto**: «[2025 MG MG4 (GLB)(mgmotor.com.mx)](https://sketchfab.com/3d-models/2025-mg-mg4-glbmgmotorcommx-ee2e3b0e1a7b481cb2c08e6fc6d2ed9e)» di **MattDoesBlender** (Sketchfab), licenza [**CC BY-NC-SA 4.0**](https://creativecommons.org/licenses/by-nc-sa/4.0/). Il file `car3d-pub-v4.bin` è una versione **modificata**: semplificata (da circa 1,1 milioni a circa 550.000 triangoli), divisa in gruppi e riordinata per la scheda grafica, con la carrozzeria ricolorata di nero, interni e pinze dei freni tolti, i cerchi sostituiti da un disegno e i loghi del costruttore e le targhe rimossi. Anche le immagini dell'auto vista dall'alto usate dall'app sono ricavate da questo modello. Sono distribuite con la stessa licenza: solo uso non commerciale, con questa attribuzione.
-- **Vista ruote**: idea e disposizione 2×2 da [MG4-360-Camera-App](https://github.com/jamakr4/MG4-360-Camera-App) di **jamakr4**, con il suo permesso. Il codice è nostro. Anche la collaborazione tra le due app sulle telecamere (Release/Resume) è nata con lui.
+- **Vista ruote**: idea da [MG4-360-Camera-App](https://github.com/jamakr4/MG4-360-Camera-App) di **jamakr4**, con il suo permesso. Il codice è nostro. Anche la collaborazione tra le due app sulle telecamere (Release/Resume) è nata con lui.
 - **Caratteri**: Exo 2, Chakra Petch e Orbitron, con licenza SIL Open Font License 1.1.
 - L'app non contiene né usa immagini o testi dell'app di serie: auto vista dall'alto, icone e avvisi sono disegnati da noi. Legge dall'auto solo i dati che servono a funzionare (telecamere, marcia, sterzo, sensori, calibrazione).
 - MG, MG4 e SAIC sono marchi dei rispettivi proprietari, citati solo per indicare la compatibilità.

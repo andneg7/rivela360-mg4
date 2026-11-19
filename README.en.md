@@ -46,14 +46,15 @@
 - **360° view** built from the 4 cameras, shown next to a single-camera view or the **3D view** with the car model.
 - **Realistic top-view car**, rendered from the 3D model, in the 8 MG4 colours, with a black or body-coloured roof (also in the 3D view).
 - **Dynamic guide lines** that follow the steering, **side clearance lines** and **sensor bars** also in 3D.
-- **Wheel view**: four straightened tiles on the front and rear wheels, with the car's edge drawn on the ground, to get close to kerbs. Opens from its button or by itself with the wheels turned (over 12°) below 10 km/h; if you switch it off by hand it stays off for the whole manoeuvre.
+- **Wheel view**: two straightened images, left and right, next to the front wheels, with a red line along the edge of the car, to get close to kerbs. Opens from its button at the top of the 360° view or by itself with the steering wheel almost at full lock (at least 450°) below 10 km/h; if you switch it off by hand it stays off for the whole manoeuvre.
+- **Balanced light** between the four cameras, in the 360° view and in 3D: the joins between the images are less visible.
 - **Parking sensors** with distance in cm and automatic zoom on the obstacle, plus a **cross-traffic** warning when reversing.
 - **Car wash mode**: light-blue bands on the front wheels to line up with the track of car wash tunnels, also in 3D with the car semi-transparent.
 - **Automatic opening** when reversing and with the turn signals, with adjustable opening and closing speed.
 - **Safety net**: if the app doesn't show the image within 2.5 seconds when reversing, the stock 360 opens.
 - **Photos, videos and automatic recording of manoeuvres**, also to a USB stick.
 - **Works with MG4-360-Camera-App** by jamakr4: when Rivela opens the cameras it asks the other app to release them and gives them back when it closes (requires his version with this feature).
-- Languages: English, Italian, German, French and Spanish.
+- Languages: English, Italian, German, French, Spanish and Czech.
 
 ## What it looks like
 > The reversing and 3D view images are **mockups** (a simulated screen and a render of the 3D model); the settings ones are faithful recreations of the app's settings screens. None is a photo of the car. In the car the look may differ in some details.
@@ -76,7 +77,7 @@
 ![Settings: reversing](immagini/settings-reverse.png)
 ![Settings: 3D view](immagini/settings-3d-view.png)
 
-> The app's screens appear in the language of the car (English, Italian, German, French or Spanish).
+> The app's screens appear in the language of the car (English, Italian, German, French, Spanish or Czech).
 
 ## Installing
 The step-by-step guide, including how to go back to the stock 360, is in [**GUIDE.en.md**](GUIDE.en.md). In short:
@@ -116,7 +117,7 @@ Full text of the terms: [**LICENSE**](LICENSE).
 
 - **Rivela 360** is free for personal, non-commercial use. The source code is not published. Selling it or distributing it for a fee is not allowed.
 - **3D car model**: "[2025 MG MG4 (GLB)(mgmotor.com.mx)](https://sketchfab.com/3d-models/2025-mg-mg4-glbmgmotorcommx-ee2e3b0e1a7b481cb2c08e6fc6d2ed9e)" by **MattDoesBlender** (Sketchfab), licensed [**CC BY-NC-SA 4.0**](https://creativecommons.org/licenses/by-nc-sa/4.0/). The `car3d-pub-v4.bin` file is a **modified** version: simplified (from about 1.1 million to about 550,000 triangles), split into groups and reordered for the graphics chip, with the bodywork recoloured black, interior and brake calipers removed, wheels replaced by a custom design, and manufacturer logos and number plates removed. The top-view car images used by the app are also rendered from this model. They are distributed under the same license: non-commercial use only, with this attribution.
-- **Wheel view**: idea and 2×2 layout from [MG4-360-Camera-App](https://github.com/jamakr4/MG4-360-Camera-App) by **jamakr4**, with his permission. The code is our own. The camera hand-over between the two apps (Release/Resume) was also developed with him.
+- **Wheel view**: idea from [MG4-360-Camera-App](https://github.com/jamakr4/MG4-360-Camera-App) by **jamakr4**, with his permission. The code is our own. The camera hand-over between the two apps (Release/Resume) was also developed with him.
 - **Fonts**: Exo 2, Chakra Petch and Orbitron, under the SIL Open Font License 1.1.
 - The app neither contains nor uses images or text from the stock app: the top-view car, icons and warnings are our own. It only reads from the car the data it needs to work (cameras, gear, steering, sensors, calibration).
 - MG, MG4 and SAIC are trademarks of their respective owners, mentioned only to indicate compatibility.
