@@ -1,0 +1,16 @@
+# Local Python cache and new exports; named reference assets are included below.
+__pycache__/
+*.py[cod]
+*.glb
+*.gltf
+*.blend
+*.blend[0-9]
+*.obj
+*.mtl
+*.meshbin
+
+# Prepared reference assets intentionally supplied for this contribution.
+!mg4-topview.blend
+!car.obj
+!car.mtl
+!car.meshbin
