@@ -10,12 +10,12 @@
       "notes": "Versione consigliata di Rivela 360 (beta 9, provata sulle auto dei tester): vista 360\u00b0, vista 3D, auto vista dall'alto negli 8 colori con tetto nero o in tinta, linee d'ingombro, sensori, traffico trasversale, autolavaggio, registrazione. Resta una versione sperimentale: leggi le avvertenze e usala con cautela."
     },
     "beta": {
-      "versionCode": 21112,
-      "versionName": "2.11 beta 12",
-      "file": "releases/Rivela360-v2.11-beta12.apk",
-      "sha256": "00d619859c4a3a3f74732d88664cdaebff6f7d10bb6fbcdf0f673169edb850a1",
-      "size": 3173215,
-      "notes": "Beta 12: nuova vista ruote con due immagini, sinistra e destra, e una linea rossa sul bordo dell'auto; si apre da sola solo con il volante quasi a fine corsa e il pulsante \u00e8 ora in alto nella vista 360\u00b0. Bilanciamento della luce tra le telecamere. Vista 3D: viste automatiche pi\u00f9 lontane dall'auto e rotazione pi\u00f9 lenta; con due dita ci si avvicina e da vicino l'auto diventa trasparente. Nuova lingua: ceco. Versione sperimentale: usare con cautela."
+      "versionCode": 27001,
+      "versionName": "2.70 beta 1",
+      "file": "releases/Rivela360-v2.70-beta1.apk",
+      "sha256": "8cc02c8341559ecad1865b4f8f6c87035d318740a262be6686915d2bfac4e6bf",
+      "size": 3304693,
+      "notes": "2.70 beta 1: nuova vista Panoramica della telecamera e immagine pi\u00f9 nitida. Vista 3D con tre cerchi (X-Power con pinze arancioni, Luxury/Trophy 18\u2033, Luxury MY22 17\u2033), luce del modello regolabile e tende per linee e sensori. Vista ruote a quattro finestre che si ingrandiscono con un tocco, anche in marcia avanti. Linee dinamiche Classico e Moderno con tacche bianche. App aperta a mano che resta aperta, video senza pulsanti, spiegazioni animate. Versione sperimentale: usare con cautela."
     }
   }
 }
