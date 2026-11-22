@@ -17,24 +17,19 @@
 
 <p align="center"><a href="https://www.paypal.me/anegri18"><img alt="Donate with PayPal" src="https://img.shields.io/badge/Donate-PayPal-0070ba?logo=paypal&logoColor=white&style=for-the-badge"></a><br><sub>Freeware: if it is useful to you, you can support the project with a free, optional donation.</sub></p>
 
-**An alternative 360° view for the MG4 Electric.** An independent, free project that replaces the stock 360° camera interface with a clearer view, a 3D model of the car and many extra features.
+**An alternative 360° view for the MG4 Electric.** An independent, free project that replaces the stock 360° view with a clearer one, a 3D model of the car and many extra features.
 
 > [!WARNING]
-> ## 🧪 EXPERIMENTAL BETA VERSIONS: USE WITH CAUTION
-> **All Rivela 360 versions are, for now, experimental betas.** It is a hobby project, tried so far on a single car. They may contain bugs, behave unexpectedly or stop working after an update. **Use them with caution**: never rely on this app as your only way to see around the car. The stock 360° can be restored at any time from the app settings.
+> **Beta version.** Rivela 360 is a hobby project still being tested, used so far on a few cars. It may contain some bugs or behave unexpectedly, especially after an update. The stock 360 can be restored at any time from the settings.
 
-> [!CAUTION]
-> ## ⚠️ A DRIVING AID: IT DOES NOT REPLACE YOUR ATTENTION
-> - **Rivela 360 is only an aid.** Images, guide lines, distances, colours, sensor bars and warnings can be **inaccurate, late, missing or wrong**.
-> - **The driver is always solely responsible for the manoeuvre.** **Always** also check the mirrors and **look directly outside** the window, and comply with traffic law.
-> - **Don't rely on the screen alone** for distances, obstacles, people, animals or children near the car.
-> - **It replaces a stock application of the car** and uses system permissions: it can cause malfunctions, including of the original camera, and may void the warranty. **Installation and use are at your sole risk.**
-> - **Always try it stationary**, in P, in a safe place, before using it to manoeuvre.
-> - Before installing it, read the [**Warnings and liability**](DISCLAIMER.en.md): by installing it you accept them.
+> [!IMPORTANT]
+> **It is a driving aid, not a replacement.** Images, lines and distances help a lot, but they can be inaccurate or late: always check the mirrors and look outside the window too. Responsibility for the manoeuvre stays with the driver.
+>
+> The app takes the place of a stock feature and uses system permissions: installation and use are at your own risk and may affect the warranty. Do your first test stationary, in P. The details are in the [**Warnings and liability**](DISCLAIMER.en.md), which you accept by installing it.
 
 > **Personal, unofficial project, not affiliated with MG Motor or SAIC.**
 >
-> 🔬 **Test version.** It has been tried on a single configuration only: **MG4 Electric Luxury MY23, FICM head unit, firmware SWI68 R67, Android 9**. I don't know how it behaves on other versions.
+> 🔬 Tested mainly on an **MG4 Electric Luxury MY23, FICM head unit, firmware SWI68 R67, Android 9**.
 >
 > | Firmware | Status |
 > |---|---|
@@ -43,47 +38,100 @@
 > | Others | ❓ Unknown |
 
 ## What it does
-- **360° view** built from the 4 cameras, shown next to a single-camera view or the **3D view** with the car model.
-- **Realistic top-view car**, rendered from the 3D model, in the 8 MG4 colours, with a black or body-coloured roof (also in the 3D view).
-- **Dynamic guide lines** that follow the steering, **side clearance lines** and **sensor bars** also in 3D.
-- **Wheel view**: two straightened images, left and right, next to the front wheels, with a red line along the edge of the car, to get close to kerbs. Opens from its button at the top of the 360° view or by itself with the steering wheel almost at full lock (at least 450°) below 10 km/h; if you switch it off by hand it stays off for the whole manoeuvre.
-- **Balanced light** between the four cameras, in the 360° view and in 3D: the joins between the images are less visible.
-- **Parking sensors** with distance in cm and automatic zoom on the obstacle, plus a **cross-traffic** warning when reversing.
-- **Car wash mode**: light-blue bands on the front wheels to line up with the track of car wash tunnels, also in 3D with the car semi-transparent.
-- **Automatic opening** when reversing and with the turn signals, with adjustable opening and closing speed.
-- **Safety net**: if the app doesn't show the image within 2.5 seconds when reversing, the stock 360 opens.
+- **360° top view** built from the 4 cameras, with the car drawn in the middle in the 8 MG4 colours (black or body-coloured roof).
+- **3D view** with a model of the car: turn it with one finger; it has lights, indicators and wheels that steer. Three wheel choices: X-Power, Luxury/Trophy 18″ and Luxury MY22 17″.
+- **Dynamic guide lines** that follow the steering wheel, in two styles (Classic and Modern), with marks at 1, 2 and 3 m.
+- **Parking sensors** with the distance in cm, **automatic zoom** on the obstacle and **cross-traffic** warning in reverse. In 3D they become coloured curtains.
+- **Wheel view**: four straightened windows next to the wheels, with a red line on the edge of the car, to get close to kerbs without touching tyres and rims.
+- **Car wash mode**: two blue bands show where the front wheels will go.
+- **Original or Panoramic camera view**, chosen per camera: Panoramic has straight lines and no black corners.
+- **Automatic opening** in reverse and with the indicators, with adjustable opening and closing speeds.
+- **Safety net**: if the image does not arrive within 2.5 seconds in reverse, the stock 360 opens.
 - **Photos, videos and automatic recording of manoeuvres**, also to a USB stick.
-- **Works with MG4-360-Camera-App** by jamakr4: when Rivela opens the cameras it asks the other app to release them and gives them back when it closes (requires his version with this feature).
+- **Animated explanations** in the settings ("i" button) and **over-the-air updates** from this page.
+- **Works with MG4-360-Camera-App** by jamakr4: when Rivela opens the cameras it asks the other app to release them and hands them back when it closes.
 - Languages: English, Italian, German, French, Spanish and Czech.
 
-## What it looks like
-> The reversing and 3D view images are **mockups** (a simulated screen and a render of the 3D model); the settings ones are faithful recreations of the app's settings screens. None is a photo of the car. In the car the look may differ in some details.
+## How to use it
+A tour of the app, in the order you meet it in the car. The pictures are real screenshots from the author's car, with version 2.70 beta 1.
 
-**Reversing:** 360° view on the left, rear camera on the right, with guide lines, sensor bars and distance in cm.
+### In reverse
+When you select reverse the app opens by itself. On the left there is the **top view**, rebuilt from the four cameras with the car drawn in the middle; on the right the **rear camera** image.
 
-![Reversing](immagini/reverse.png)
+As you turn the steering wheel, the **lines** move and show where the car will go. The marks show 1, 2 and 3 metres from the bumper.
 
-**3D view** with the car model:
+![Reverse: top view and rear camera with the lines and the sensor at 1.4 m](immagini/guida-retro-linee.jpg)
 
-![3D view](immagini/vista-3d.png)
+Near the bumper the **sensor bars** appear, with the obstacle distance in centimetres: green, then yellow, then red. When an obstacle is close, the top view **zooms in by itself** on that spot ("Automatic zoom on the obstacle").
 
-**Car wash mode** (front camera): the two strips the front wheels will follow, with marks at 1, 2 and 3 m. *Illustration, not a real screenshot.*
+![Reverse: obstacle at 45 cm, automatic zoom on the top view](immagini/guida-sensori-zoom.jpg)
 
-![Car wash mode](immagini/car-wash-illustration.png)
+### Changing view
+- **Camera:** tap the area around the car you want to see: front, rear or one of the sides.
+- **Wide view:** the button at the bottom right shows more space around the car.
+- **Lens:** the lens button zooms in on the area you are interested in.
 
-**Settings** (recreations of the app's screens, designed for touch):
+### 3D view
+The **cube** button opens the 3D view: you see the car from outside and turn it with one finger to look at it from every side. Use two fingers to get closer; very close up, the car becomes transparent and you can see what is underneath.
 
-![Settings: opening and closing](immagini/settings-opening.png)
-![Settings: reversing](immagini/settings-reverse.png)
-![Settings: 3D view](immagini/settings-3d-view.png)
+The model shows lights, indicators and wheels that steer. The sensors become **coloured curtains**, green, yellow or red depending on the distance to the obstacle.
 
-> The app's screens appear in the language of the car (English, Italian, German, French, Spanish or Czech).
+![3D view in reverse: obstacle at 30 cm, red and yellow curtains](immagini/guida-3d-sensori.jpg)
+
+In the settings you choose the car colour and the wheels, and the model changes straight away:
+
+![3D view with the orange car](immagini/guida-3d-colori.jpg)
+
+### Wheel view
+The **rim** button opens the wheel view: straightened images with a **red line** along the edge of the car. It helps you get close to the kerb without touching tyres and rims. Each window closes with its own X; one tap **enlarges** it, another makes it small again.
+
+The view can also open **by itself** at low speed, when you turn the steering wheel almost to full lock: handy when parallel parking.
+
+**Parallel parking:** as you slot into the space, the windows show the kerb next to each wheel and the red line tells you how much room is left. One tap enlarges the wheel you are interested in.
+
+![Parallel parking: the four wheel view windows, with the kerb and the red line](immagini/guida-parallelo-ruote.jpg)
+
+**Video (1 min 29 s):** parallel parking from start to finish. Click the picture to watch it on YouTube.
+
+[![YouTube video: parallel parking with the wheel view](immagini/video-parcheggio-parallelo.jpg)](https://youtu.be/g0i7RoX5Mp8)
+
+![Wheel view: four windows with the red line on the edge of the car](immagini/guida-vista-ruote.jpg)
+
+### Car wash
+To drive into a car wash tunnel there is the **car wash mode**: two blue bands show where the front wheels will go and help you line up with the rails.
+
+![Car wash mode inside the tunnel: the blue bands on the rails, with marks at 1, 2 and 3 m](immagini/guida-autolavaggio.jpg)
+
+**Video (39 s):** driving into the car wash tunnel with the blue bands. Click the picture to watch it on YouTube.
+
+[![YouTube video: car wash mode](immagini/video-autolavaggio.jpg)](https://youtu.be/NuJO1H80DHk)
+
+### Driving forward
+With the **indicator** on, at low speed, the app shows the camera on that side. You can also open it by hand from its icon, at any speed: with the front camera you can see right in front of the bonnet.
+
+![Front camera driving forward](immagini/guida-marcia-avanti.jpg)
+
+### Settings
+They open from the **gear** at the bottom left and are split into eight tabs. The most useful things:
+
+- **Opening and closing:** what opens with reverse and the indicators, **Rivela 360 or the stock 360**. From here you can go back to the stock 360 at any time. If you open the app by hand, it can stay open until you close it.
+- **Reverse** and **Drive:** guide lines, line style (Classic or Modern) and automatic zoom on the obstacle, with the distance it starts at.
+- **360° view** and **3D view:** car and roof colour, wheels, lights and brightness of the 3D model.
+- **Tests and advanced:** stationary tests (simulated reverse, sensors, cross traffic) and the view of each camera, **Original** or **Panoramic**.
+- **Updates:** the app updates over the air from this GitHub page; here you can also read again what is new in each version.
+
+If you are unsure about an option, tap the **"i"** next to it: a short animation explains what it does.
+
+![Settings: opening and closing](immagini/impostazioni-apertura.jpg)
+![Settings: reverse](immagini/impostazioni-retromarcia.jpg)
+![Settings: 3D view](immagini/impostazioni-vista-3d.jpg)
+![Settings: tests and advanced](immagini/impostazioni-prove-avanzate.jpg)
 
 ## Installing
 The step-by-step guide, including how to go back to the stock 360, is in [**GUIDE.en.md**](GUIDE.en.md). In short:
 1. Download the APK of the **recommended version** from the [**Releases**](https://github.com/andneg7/rivela360-mg4/releases/latest) page (*Assets* section). Newer betas are in the [`releases/`](releases/) folder.
 2. Copy it to a USB stick, open it from the car's file manager and tap *Install*.
-3. On first launch, stationary in P, read and accept the warnings. **Always try it while stationary before using it to manoeuvre: it is only an aid, responsibility for the manoeuvre stays with you.**
+3. On first launch, stationary in P, read and accept the warnings. Do a first test while stationary before using it to manoeuvre.
 
 > [!NOTE]
 > **After switching the car on, wait for the infotainment to finish booting.** Rivela 360 is only available once the boot is complete. In the meantime, when reversing, the stock fast rear camera (fast RVC) is there: it is independent of Android and works even while it boots.
@@ -116,7 +164,7 @@ If it is useful to you and you want to support the work, you can make a **free, 
 Full text of the terms: [**LICENSE**](LICENSE).
 
 - **Rivela 360** is free for personal, non-commercial use. The source code is not published. Selling it or distributing it for a fee is not allowed.
-- **3D car model**: "[2025 MG MG4 (GLB)(mgmotor.com.mx)](https://sketchfab.com/3d-models/2025-mg-mg4-glbmgmotorcommx-ee2e3b0e1a7b481cb2c08e6fc6d2ed9e)" by **MattDoesBlender** (Sketchfab), licensed [**CC BY-NC-SA 4.0**](https://creativecommons.org/licenses/by-nc-sa/4.0/). The `car3d-pub-v4.bin` file is a **modified** version: simplified (from about 1.1 million to about 550,000 triangles), split into groups and reordered for the graphics chip, with the bodywork recoloured black, interior and brake calipers removed, wheels replaced by a custom design, and manufacturer logos and number plates removed. The top-view car images used by the app are also rendered from this model. They are distributed under the same license: non-commercial use only, with this attribution.
+- **3D car model**: "[2025 MG MG4 (GLB)(mgmotor.com.mx)](https://sketchfab.com/3d-models/2025-mg-mg4-glbmgmotorcommx-ee2e3b0e1a7b481cb2c08e6fc6d2ed9e)" by **MattDoesBlender** (Sketchfab), licensed [**CC BY-NC-SA 4.0**](https://creativecommons.org/licenses/by-nc-sa/4.0/). The `car3d-pub-*.bin` files are **modified** versions: simplified (from about 1.1 million to about 430,000–550,000 triangles), split into groups and reordered for the graphics chip, with the bodywork recoloured, the interior removed, and manufacturer logos and number plates removed. The X-Power wheels are the model's own, with coloured brake calipers; for Luxury/Trophy 18″ and Luxury MY22 17″ the rim is an image applied to the wheel disc, with a logo-free centre cap and tyres in proportion. The top-view car images used by the app are also rendered from this model. They are distributed under the same license: non-commercial use only, with this attribution.
 - **Wheel view**: idea from [MG4-360-Camera-App](https://github.com/jamakr4/MG4-360-Camera-App) by **jamakr4**, with his permission. The code is our own. The camera hand-over between the two apps (Release/Resume) was also developed with him.
 - **Fonts**: Exo 2, Chakra Petch and Orbitron, under the SIL Open Font License 1.1.
 - The app neither contains nor uses images or text from the stock app: the top-view car, icons and warnings are our own. It only reads from the car the data it needs to work (cameras, gear, steering, sensors, calibration).
