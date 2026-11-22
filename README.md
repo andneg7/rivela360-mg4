@@ -1,174 +1,174 @@
-🇮🇹 Italiano | [🇬🇧 English](README.en.md)
+🇬🇧 English | [🇮🇹 Italiano](README.it.md)
 
 <p align="center"><img src="immagini/rivela360-logo-horizontal-en.svg" alt="Rivela 360" width="520"></p>
 
 # Rivela 360
 
 <p align="center">
-<a href="releases/update.json"><img alt="versione" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fandneg7%2Frivela360-mg4%2Fmain%2Freleases%2Fupdate.json&query=%24.channels.beta.versionName&label=versione&logo=github&color=1e6eeb"></a>
+<a href="releases/update.json"><img alt="version" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fandneg7%2Frivela360-mg4%2Fmain%2Freleases%2Fupdate.json&query=%24.channels.beta.versionName&label=version&logo=github&color=1e6eeb"></a>
 <a href="https://github.com/andneg7/rivela360-mg4/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/andneg7/rivela360-mg4?logo=github&style=flat"></a>
 <img alt="Android" src="https://img.shields.io/badge/Android-9-3ddc84?logo=android&logoColor=white">
 <img alt="MG4" src="https://img.shields.io/badge/MG4-Electric-e4002b">
-<img alt="Beta sperimentale" src="https://img.shields.io/badge/STATO-BETA%20SPERIMENTALE-e8590c?style=flat">
-<img alt="Freeware" src="https://img.shields.io/badge/Freeware-gratuito-2ea44f">
-<a href="https://github.com/andneg7/rivela360-mg4/issues"><img alt="Issues" src="https://img.shields.io/github/issues/andneg7/rivela360-mg4?logo=github&label=segnalazioni"></a>
+<img alt="Experimental beta" src="https://img.shields.io/badge/STATUS-EXPERIMENTAL%20BETA-e8590c?style=flat">
+<img alt="Freeware" src="https://img.shields.io/badge/Freeware-free-2ea44f">
+<a href="https://github.com/andneg7/rivela360-mg4/issues"><img alt="Issues" src="https://img.shields.io/github/issues/andneg7/rivela360-mg4?logo=github&label=issues"></a>
 <a href="https://github.com/andneg7/rivela360-mg4/releases"><img alt="Download" src="https://img.shields.io/github/downloads/andneg7/rivela360-mg4/total?logo=github&label=download"></a>
 </p>
 
-<p align="center"><a href="https://www.paypal.me/anegri18"><img alt="Dona con PayPal" src="https://img.shields.io/badge/Dona-PayPal-0070ba?logo=paypal&logoColor=white&style=for-the-badge"></a><br><sub>Freeware: se ti è utile, puoi sostenere il progetto con una donazione libera e facoltativa.</sub></p>
+<p align="center"><a href="https://www.paypal.me/anegri18"><img alt="Donate with PayPal" src="https://img.shields.io/badge/Donate-PayPal-0070ba?logo=paypal&logoColor=white&style=for-the-badge"></a><br><sub>Freeware: if it is useful to you, you can support the project with a free, optional donation.</sub></p>
 
-**Vista 360° alternativa per MG4 Electric.** Un progetto indipendente e gratuito che sostituisce la vista 360° di serie con una vista più chiara, il modello 3D dell'auto e molte funzioni in più.
+**An alternative 360° view for the MG4 Electric.** An independent, free project that replaces the stock 360° view with a clearer one, a 3D model of the car and many extra features.
 
 > [!WARNING]
-> **Versione beta.** Rivela 360 è un progetto amatoriale ancora in prova, usato finora su poche auto. Può contenere qualche errore o comportarsi in modo imprevisto, soprattutto dopo un aggiornamento. La 360 di serie si può ripristinare in qualsiasi momento dalle impostazioni.
+> **Beta version.** Rivela 360 is a hobby project still being tested, used so far on a few cars. It may contain some bugs or behave unexpectedly, especially after an update. The stock 360 can be restored at any time from the settings.
 
 > [!IMPORTANT]
-> **È un aiuto alla guida, non la sostituisce.** Immagini, linee e distanze aiutano molto, ma possono essere imprecise o in ritardo: guarda sempre anche gli specchietti e fuori dal finestrino. La responsabilità della manovra resta di chi guida.
+> **It is a driving aid, not a replacement.** Images, lines and distances help a lot, but they can be inaccurate or late: always check the mirrors and look outside the window too. Responsibility for the manoeuvre stays with the driver.
 >
-> L'app prende il posto di una funzione di serie e usa permessi di sistema: installazione e uso sono a tuo rischio e possono incidere sulla garanzia. Fai la prima prova da fermo, in P. I dettagli sono nelle [**Avvertenze e responsabilità**](DISCLAIMER.md), che accetti installandola.
+> The app takes the place of a stock feature and uses system permissions: installation and use are at your own risk and may affect the warranty. Do your first test stationary, in P. The details are in the [**Warnings and liability**](DISCLAIMER.en.md), which you accept by installing it.
 
-> **Progetto personale, non ufficiale e non collegato a MG Motor né a SAIC.**
+> **Personal, unofficial project, not affiliated with MG Motor or SAIC.**
 >
-> 🔬 Provata soprattutto su **MG4 Electric Luxury MY23, unità FICM, firmware SWI68 R67, Android 9**.
+> 🔬 Tested mainly on an **MG4 Electric Luxury MY23, FICM head unit, firmware SWI68 R67, Android 9**.
 >
-> | Firmware | Stato |
+> | Firmware | Status |
 > |---|---|
-> | **SWI68 R67** | ✅ **Testato** |
-> | **SWI133** | ✅ **Funziona** (provato da un tester). Stessa base Android 9, stessa app 360 di serie, stessa firma di sistema |
-> | Altri | ❓ Sconosciuto |
+> | **SWI68 R67** | ✅ **Tested** |
+> | **SWI133** | ✅ **Works** (tried by a tester). Same Android 9 base, same stock 360 app, same system signature |
+> | Others | ❓ Unknown |
 
-## Cosa fa
-- **Vista 360° dall'alto** costruita dalle 4 telecamere, con l'auto disegnata al centro negli 8 colori MG4 (tetto nero o in tinta).
-- **Vista 3D** con il modello dell'auto: si gira con un dito, ha luci, frecce e ruote che sterzano. Tre cerchi a scelta: X-Power, Luxury/Trophy 18″ e Luxury MY22 17″.
-- **Linee dinamiche** che seguono il volante, in due stili (Classico e Moderno), con tacche a 1, 2 e 3 m.
-- **Sensori di parcheggio** con la distanza in cm, **zoom automatico** sull'ostacolo e avviso di **traffico trasversale** in retromarcia. Nel 3D diventano tende colorate.
-- **Vista ruote**: quattro finestre raddrizzate accanto alle ruote, con una linea rossa sul bordo dell'auto, per avvicinarsi ai marciapiedi senza toccare gomme e cerchi.
-- **Modalità autolavaggio**: due fasce azzurre mostrano dove passeranno le ruote anteriori.
-- **Vista della telecamera Originale o Panoramica**, scelta per ogni telecamera: la Panoramica ha linee dritte e niente angoli neri.
-- **Apertura automatica** in retromarcia e con le frecce, con velocità di apertura e chiusura regolabili.
-- **Rete di sicurezza**: se in retromarcia l'immagine non arriva entro 2,5 secondi, si apre la 360 di serie.
-- **Foto, video e registrazione automatica delle manovre**, anche su chiavetta USB.
-- **Spiegazioni animate** nelle impostazioni (pulsante «i») e **aggiornamenti via rete** da questa pagina.
-- **Compatibile con MG4-360-Camera-App** di jamakr4: quando Rivela apre le telecamere chiede all'altra app di lasciarle e gliele restituisce alla chiusura.
-- Lingue: italiano, inglese, tedesco, francese, spagnolo e ceco.
+## What it does
+- **360° top view** built from the 4 cameras, with the car drawn in the middle in the 8 MG4 colours (black or body-coloured roof).
+- **3D view** with a model of the car: turn it with one finger; it has lights, indicators and wheels that steer. Three wheel choices: X-Power, Luxury/Trophy 18″ and Luxury MY22 17″.
+- **Dynamic guide lines** that follow the steering wheel, in two styles (Classic and Modern), with marks at 1, 2 and 3 m.
+- **Parking sensors** with the distance in cm, **automatic zoom** on the obstacle and **cross-traffic** warning in reverse. In 3D they become coloured curtains.
+- **Wheel view**: four straightened windows next to the wheels, with a red line on the edge of the car, to get close to kerbs without touching tyres and rims.
+- **Car wash mode**: two blue bands show where the front wheels will go.
+- **Original or Panoramic camera view**, chosen per camera: Panoramic has straight lines and no black corners.
+- **Automatic opening** in reverse and with the indicators, with adjustable opening and closing speeds.
+- **Safety net**: if the image does not arrive within 2.5 seconds in reverse, the stock 360 opens.
+- **Photos, videos and automatic recording of manoeuvres**, also to a USB stick.
+- **Animated explanations** in the settings ("i" button) and **over-the-air updates** from this page.
+- **Works with MG4-360-Camera-App** by jamakr4: when Rivela opens the cameras it asks the other app to release them and hands them back when it closes.
+- Languages: English, Italian, German, French, Spanish and Czech.
 
-## Come si usa
-Un giro dell'app, nell'ordine in cui la si incontra in auto. Le immagini sono schermate vere dall'auto dell'autore, con la versione 2.70 beta 1.
+## How to use it
+A tour of the app, in the order you meet it in the car. The pictures are real screenshots from the author's car, with version 2.70 beta 1.
 
-### In retromarcia
-Quando inserisci la retromarcia l'app si apre da sola. A sinistra c'è la **vista dall'alto**, ricostruita con le quattro telecamere e con l'auto disegnata al centro; a destra l'immagine della **telecamera posteriore**.
+### In reverse
+When you select reverse the app opens by itself. On the left there is the **top view**, rebuilt from the four cameras with the car drawn in the middle; on the right the **rear camera** image.
 
-Girando il volante, le **linee** si muovono e mostrano dove andrà l'auto. Le tacche indicano 1, 2 e 3 metri dal paraurti.
+As you turn the steering wheel, the **lines** move and show where the car will go. The marks show 1, 2 and 3 metres from the bumper.
 
-![Retromarcia: vista dall'alto e telecamera posteriore con le linee e il sensore a 1,4 m](immagini/guida-retro-linee.jpg)
+![Reverse: top view and rear camera with the lines and the sensor at 1.4 m](immagini/guida-retro-linee.jpg)
 
-Vicino al paraurti compaiono le **barre dei sensori**, con la distanza dell'ostacolo in centimetri: verdi, poi gialle, poi rosse. Quando un ostacolo è vicino, la vista dall'alto **si ingrandisce da sola** in quel punto («Zoom automatico sull'ostacolo»).
+Near the bumper the **sensor bars** appear, with the obstacle distance in centimetres: green, then yellow, then red. When an obstacle is close, the top view **zooms in by itself** on that spot ("Automatic zoom on the obstacle").
 
-![Retromarcia: ostacolo a 45 cm, zoom automatico sulla vista dall'alto](immagini/guida-sensori-zoom.jpg)
+![Reverse: obstacle at 45 cm, automatic zoom on the top view](immagini/guida-sensori-zoom.jpg)
 
-### Cambiare vista
-- **Telecamera:** tocca la zona intorno all'auto che vuoi vedere: davanti, dietro o uno dei lati.
-- **Vista ampia:** il pulsante in basso a destra mostra più spazio intorno all'auto.
-- **Lente:** il pulsante con la lente ingrandisce la zona che ti interessa.
+### Changing view
+- **Camera:** tap the area around the car you want to see: front, rear or one of the sides.
+- **Wide view:** the button at the bottom right shows more space around the car.
+- **Lens:** the lens button zooms in on the area you are interested in.
 
-### Vista 3D
-Il pulsante con il **cubo** apre la vista 3D: l'auto si vede da fuori e la giri con un dito per guardarla da ogni lato. Con due dita ti avvicini; da molto vicino l'auto diventa trasparente e si vede cosa c'è sotto.
+### 3D view
+The **cube** button opens the 3D view: you see the car from outside and turn it with one finger to look at it from every side. Use two fingers to get closer; very close up, the car becomes transparent and you can see what is underneath.
 
-Il modello mostra luci, frecce e ruote che sterzano. I sensori diventano **tende colorate**, verdi, gialle o rosse secondo la distanza dall'ostacolo.
+The model shows lights, indicators and wheels that steer. The sensors become **coloured curtains**, green, yellow or red depending on the distance to the obstacle.
 
-![Vista 3D in retromarcia: ostacolo a 30 cm, tende rosse e gialle](immagini/guida-3d-sensori.jpg)
+![3D view in reverse: obstacle at 30 cm, red and yellow curtains](immagini/guida-3d-sensori.jpg)
 
-Nelle impostazioni scegli il colore dell'auto e i cerchi, e il modello cambia subito:
+In the settings you choose the car colour and the wheels, and the model changes straight away:
 
-![Vista 3D con l'auto arancione](immagini/guida-3d-colori.jpg)
+![3D view with the orange car](immagini/guida-3d-colori.jpg)
 
-### Vista ruote
-Il pulsante con il **cerchione** apre la vista ruote: immagini raddrizzate con una **linea rossa** lungo il bordo dell'auto. Serve per avvicinarsi al marciapiede senza toccare gomme e cerchi. Ogni finestra si chiude con la sua X; un tocco la **ingrandisce**, un altro la riporta piccola.
+### Wheel view
+The **rim** button opens the wheel view: straightened images with a **red line** along the edge of the car. It helps you get close to the kerb without touching tyres and rims. Each window closes with its own X; one tap **enlarges** it, another makes it small again.
 
-La vista può aprirsi anche **da sola** a bassa velocità, quando giri il volante quasi a fine corsa: comodo nei parcheggi in parallelo.
+The view can also open **by itself** at low speed, when you turn the steering wheel almost to full lock: handy when parallel parking.
 
-**Parcheggio in parallelo:** mentre ti infili nello spazio, le finestre mostrano il marciapiede accanto a ogni ruota e la linea rossa dice quanto manca. Un tocco ingrandisce la ruota che ti interessa.
+**Parallel parking:** as you slot into the space, the windows show the kerb next to each wheel and the red line tells you how much room is left. One tap enlarges the wheel you are interested in.
 
-![Parcheggio in parallelo: le quattro finestre della vista ruote, con il marciapiede e la linea rossa](immagini/guida-parallelo-ruote.jpg)
+![Parallel parking: the four wheel view windows, with the kerb and the red line](immagini/guida-parallelo-ruote.jpg)
 
-**Video (1 min 29 s):** il parcheggio in parallelo dall'inizio alla fine. Clicca l'immagine per vederlo su YouTube.
+**Video (1 min 29 s):** parallel parking from start to finish. Click the picture to watch it on YouTube.
 
-[![Video su YouTube: parcheggio in parallelo con la vista ruote](immagini/video-parcheggio-parallelo.jpg)](https://youtu.be/g0i7RoX5Mp8)
+[![YouTube video: parallel parking with the wheel view](immagini/video-parcheggio-parallelo.jpg)](https://youtu.be/g0i7RoX5Mp8)
 
-![Vista ruote: quattro finestre con la linea rossa sul bordo dell'auto](immagini/guida-vista-ruote.jpg)
+![Wheel view: four windows with the red line on the edge of the car](immagini/guida-vista-ruote.jpg)
 
-### Autolavaggio
-Per entrare nel tunnel di lavaggio c'è la **modalità autolavaggio**: due fasce azzurre mostrano dove passeranno le ruote anteriori e aiutano a centrare le guide.
+### Car wash
+To drive into a car wash tunnel there is the **car wash mode**: two blue bands show where the front wheels will go and help you line up with the rails.
 
-![Modalità autolavaggio dentro il tunnel: le fasce azzurre sulle guide, con le tacche a 1, 2 e 3 m](immagini/guida-autolavaggio.jpg)
+![Car wash mode inside the tunnel: the blue bands on the rails, with marks at 1, 2 and 3 m](immagini/guida-autolavaggio.jpg)
 
-**Video (39 s):** l'ingresso nel tunnel di lavaggio con le fasce azzurre. Clicca l'immagine per vederlo su YouTube.
+**Video (39 s):** driving into the car wash tunnel with the blue bands. Click the picture to watch it on YouTube.
 
-[![Video su YouTube: modalità autolavaggio](immagini/video-autolavaggio.jpg)](https://youtu.be/NuJO1H80DHk)
+[![YouTube video: car wash mode](immagini/video-autolavaggio.jpg)](https://youtu.be/NuJO1H80DHk)
 
-### In marcia avanti
-Con la **freccia**, a bassa velocità, l'app mostra la telecamera di quel lato. Si può aprire anche a mano dall'icona, a qualsiasi velocità: con l'anteriore si vede bene davanti al muso.
+### Driving forward
+With the **indicator** on, at low speed, the app shows the camera on that side. You can also open it by hand from its icon, at any speed: with the front camera you can see right in front of the bonnet.
 
-![Telecamera anteriore in marcia avanti](immagini/guida-marcia-avanti.jpg)
+![Front camera driving forward](immagini/guida-marcia-avanti.jpg)
 
-### Impostazioni
-Si aprono dall'**ingranaggio** in basso a sinistra e sono divise in otto schede. Le cose più utili:
+### Settings
+They open from the **gear** at the bottom left and are split into eight tabs. The most useful things:
 
-- **Apertura e chiusura:** cosa si apre con la retromarcia e le frecce, **Rivela 360 o la 360 di serie**. Da qui si torna alla 360 di serie in qualsiasi momento. Se apri l'app a mano, può restare aperta finché la chiudi tu.
-- **Retromarcia** e **Marcia avanti:** linee guida, stile delle linee (Classico o Moderno) e zoom automatico sull'ostacolo, con la distanza a cui parte.
-- **Vista 360°** e **Vista 3D:** colore dell'auto e del tetto, cerchi, luci e luminosità del modello 3D.
-- **Prove e avanzate:** prove da fermi (retromarcia, sensori, traffico trasversale simulati) e la vista di ogni telecamera, **Originale** o **Panoramica**.
-- **Aggiornamenti:** l'app si aggiorna via rete da questa pagina GitHub; qui si rileggono anche le novità di ogni versione.
+- **Opening and closing:** what opens with reverse and the indicators, **Rivela 360 or the stock 360**. From here you can go back to the stock 360 at any time. If you open the app by hand, it can stay open until you close it.
+- **Reverse** and **Drive:** guide lines, line style (Classic or Modern) and automatic zoom on the obstacle, with the distance it starts at.
+- **360° view** and **3D view:** car and roof colour, wheels, lights and brightness of the 3D model.
+- **Tests and advanced:** stationary tests (simulated reverse, sensors, cross traffic) and the view of each camera, **Original** or **Panoramic**.
+- **Updates:** the app updates over the air from this GitHub page; here you can also read again what is new in each version.
 
-Se hai un dubbio su una voce, tocca la **«i»** accanto: una breve animazione spiega cosa fa.
+If you are unsure about an option, tap the **"i"** next to it: a short animation explains what it does.
 
-![Impostazioni: apertura e chiusura](immagini/impostazioni-apertura.jpg)
-![Impostazioni: retromarcia](immagini/impostazioni-retromarcia.jpg)
-![Impostazioni: vista 3D](immagini/impostazioni-vista-3d.jpg)
-![Impostazioni: prove e avanzate](immagini/impostazioni-prove-avanzate.jpg)
+![Settings: opening and closing](immagini/impostazioni-apertura.jpg)
+![Settings: reverse](immagini/impostazioni-retromarcia.jpg)
+![Settings: 3D view](immagini/impostazioni-vista-3d.jpg)
+![Settings: tests and advanced](immagini/impostazioni-prove-avanzate.jpg)
 
-## Installare
-La guida passo passo, con il ritorno alla 360 di serie, è in [**GUIDA.md**](GUIDA.md). In breve:
-1. Scarica l'APK della **versione consigliata** dalla pagina [**Release**](https://github.com/andneg7/rivela360-mg4/releases/latest) (sezione *Assets*). Le beta più nuove sono nella cartella [`releases/`](releases/).
-2. Copialo su una chiavetta USB, aprilo dal gestore file dell'auto e tocca *Installa*.
-3. Alla prima apertura, da fermo in P, leggi e accetta le avvertenze. Fai una prima prova da fermo prima di usarla in manovra.
+## Installing
+The step-by-step guide, including how to go back to the stock 360, is in [**GUIDE.en.md**](GUIDE.en.md). In short:
+1. Download the APK of the **recommended version** from the [**Releases**](https://github.com/andneg7/rivela360-mg4/releases/latest) page (*Assets* section). Newer betas are in the [`releases/`](releases/) folder.
+2. Copy it to a USB stick, open it from the car's file manager and tap *Install*.
+3. On first launch, stationary in P, read and accept the warnings. Do a first test while stationary before using it to manoeuvre.
 
 > [!NOTE]
-> **Dopo l'accensione dell'auto aspetta che l'infotainment abbia finito di avviarsi.** Rivela 360 è disponibile solo a avvio completato. Nel frattempo, in retromarcia, c'è la retrocamera rapida di serie (fast RVC), che è indipendente da Android e funziona anche durante l'avvio.
+> **After switching the car on, wait for the infotainment to finish booting.** Rivela 360 is only available once the boot is complete. In the meantime, when reversing, the stock fast rear camera (fast RVC) is there: it is independent of Android and works even while it boots.
 
-## Tornare alla 360 di serie
-Prima di disinstallare l'app o di fare un aggiornamento firmware MG: *Impostazioni › Retromarcia e frecce aprono › La 360 di serie*. Tutti i dettagli sono nella [guida](GUIDA.md#tornare-alla-360-di-serie).
+## Going back to the stock 360
+Before uninstalling the app or doing an MG firmware update: *Settings › Reversing and turn signals open › The stock 360*. Full details are in the [guide](GUIDE.en.md#going-back-to-the-stock-360).
 
-## Come funziona la vista 3D
-La proiezione delle telecamere sulla «ciotola», le distorsioni e i limiti delle 4 camere sono spiegati in [**PROIEZIONE-3D.md**](PROIEZIONE-3D.md).
+## How the 3D view works
+The projection of the cameras onto the "bowl", the distortions and the limits of the 4 cameras are explained in [**PROJECTION-3D.en.md**](PROJECTION-3D.en.md).
 
-## Note tecniche
-Come sono fatte le telecamere, il firmware, la 360 di serie, la retrocamera rapida e i dati dell'auto, con quello che abbiamo verificato in auto: [**NOTE-TECNICHE.md**](NOTE-TECNICHE.md).
+## Technical notes
+How the cameras, firmware, stock 360° app, fast rear-view camera and car data work, with what we verified in the car: [**TECHNICAL-NOTES.en.md**](TECHNICAL-NOTES.en.md).
 
 ## Beta testing
-Vuoi aiutare a provarla? Le istruzioni, con l'elenco delle prove e il modulo per il risultato, sono in [**BETATEST.md**](BETATEST.md).
+Want to help test it? The instructions, with the list of tests and the form for your result, are in [**BETATEST.en.md**](BETATEST.en.md).
 
-## Segnalare un problema
-Impostazioni › *Prove e avanzate* › Diagnosi › *Salva e invia i log di diagnosi*: il file viene salvato in `Download/MG4-360-log`. Apri una [segnalazione (Issue) su GitHub](https://github.com/andneg7/rivela360-mg4/issues/new) e allega il file, indicando modello e anno dell'auto, firmware, versione dell'app e cosa stavi facendo. Le Issue sono pubbliche: niente dati personali.
+## Reporting a problem
+Settings › *Tests and advanced* › Diagnostics › *Save and send diagnostic logs*: the file is saved to `Download/MG4-360-log`. Open a [GitHub Issue](https://github.com/andneg7/rivela360-mg4/issues/new) and attach the file, stating the car model and year, firmware, app version and what you were doing. Issues are public: no personal data.
 
-## Aggiornamenti
-L'app controlla gli aggiornamenti da questa repository (Impostazioni › Aggiornamenti). L'elenco delle versioni è in [`releases/`](releases/). I canali sono due: **Stabile** (predefinito) e **Beta**, che riceve per prima le versioni di prova. Dopo ogni aggiornamento l'app mostra una volta la finestra **Novità** con cosa è cambiato (si rilegge in Impostazioni › Aggiornamenti).
+## Updates
+The app checks for updates from this repository (Settings › Updates). The list of versions is in [`releases/`](releases/). There are two channels: **Stable** (default) and **Beta**, which gets test builds first. After each update the app shows a **What's new** window once, with what has changed (you can read it again in Settings › Updates).
 
-## Freeware e donazioni
-**Rivela 360 è freeware**: si scarica e si usa gratis, senza pubblicità, senza funzioni a pagamento e senza registrazione. Non è open source (il codice non è pubblicato).
-Se ti è utile e vuoi sostenere il lavoro, puoi fare una **donazione libera e facoltativa** con PayPal. Non dà diritto a nulla in più: nessuna funzione extra, nessun supporto garantito, nessuna priorità.
+## Freeware and donations
+**Rivela 360 is freeware**: free to download and use, with no ads, no paid features and no sign-up. It is not open source (the code is not published).
+If it is useful to you and you want to support the work, you can make a **free, optional donation** with PayPal. It entitles you to nothing extra: no extra features, no guaranteed support, no priority.
 
-<p align="center"><a href="https://www.paypal.me/anegri18"><img alt="Dona con PayPal" src="https://img.shields.io/badge/Dona-PayPal-0070ba?logo=paypal&logoColor=white&style=for-the-badge"></a></p>
+<p align="center"><a href="https://www.paypal.me/anegri18"><img alt="Donate with PayPal" src="https://img.shields.io/badge/Donate-PayPal-0070ba?logo=paypal&logoColor=white&style=for-the-badge"></a></p>
 
-## Licenza e crediti
-Testo completo delle condizioni: [**LICENSE**](LICENSE).
+## License and credits
+Full text of the terms: [**LICENSE**](LICENSE).
 
-- **Rivela 360** è gratuita per uso personale e non commerciale. Il codice non è pubblicato. Non è consentito venderla né distribuirla a pagamento.
-- **Modello 3D dell'auto**: «[2025 MG MG4 (GLB)(mgmotor.com.mx)](https://sketchfab.com/3d-models/2025-mg-mg4-glbmgmotorcommx-ee2e3b0e1a7b481cb2c08e6fc6d2ed9e)» di **MattDoesBlender** (Sketchfab), licenza [**CC BY-NC-SA 4.0**](https://creativecommons.org/licenses/by-nc-sa/4.0/). I file `car3d-pub-*.bin` sono versioni **modificate**: semplificate (da circa 1,1 milioni a circa 430.000–550.000 triangoli), divise in gruppi e riordinate per la scheda grafica, con la carrozzeria ricolorata, gli interni tolti e i loghi del costruttore e le targhe rimossi. I cerchi X-Power sono quelli del modello, con le pinze dei freni colorate; per Luxury/Trophy 18″ e Luxury MY22 17″ il cerchio è un'immagine applicata sul disco, con il coprimozzo senza logo e gomme in proporzione. Anche le immagini dell'auto vista dall'alto usate dall'app sono ricavate da questo modello. Sono distribuite con la stessa licenza: solo uso non commerciale, con questa attribuzione.
-- **Vista ruote**: idea da [MG4-360-Camera-App](https://github.com/jamakr4/MG4-360-Camera-App) di **jamakr4**, con il suo permesso. Il codice è nostro. Anche la collaborazione tra le due app sulle telecamere (Release/Resume) è nata con lui.
-- **Caratteri**: Exo 2, Chakra Petch e Orbitron, con licenza SIL Open Font License 1.1.
-- L'app non contiene né usa immagini o testi dell'app di serie: auto vista dall'alto, icone e avvisi sono disegnati da noi. Legge dall'auto solo i dati che servono a funzionare (telecamere, marcia, sterzo, sensori, calibrazione).
-- MG, MG4 e SAIC sono marchi dei rispettivi proprietari, citati solo per indicare la compatibilità.
+- **Rivela 360** is free for personal, non-commercial use. The source code is not published. Selling it or distributing it for a fee is not allowed.
+- **3D car model**: "[2025 MG MG4 (GLB)(mgmotor.com.mx)](https://sketchfab.com/3d-models/2025-mg-mg4-glbmgmotorcommx-ee2e3b0e1a7b481cb2c08e6fc6d2ed9e)" by **MattDoesBlender** (Sketchfab), licensed [**CC BY-NC-SA 4.0**](https://creativecommons.org/licenses/by-nc-sa/4.0/). The `car3d-pub-*.bin` files are **modified** versions: simplified (from about 1.1 million to about 430,000–550,000 triangles), split into groups and reordered for the graphics chip, with the bodywork recoloured, the interior removed, and manufacturer logos and number plates removed. The X-Power wheels are the model's own, with coloured brake calipers; for Luxury/Trophy 18″ and Luxury MY22 17″ the rim is an image applied to the wheel disc, with a logo-free centre cap and tyres in proportion. The top-view car images used by the app are also rendered from this model. They are distributed under the same license: non-commercial use only, with this attribution.
+- **Wheel view**: idea from [MG4-360-Camera-App](https://github.com/jamakr4/MG4-360-Camera-App) by **jamakr4**, with his permission. The code is our own. The camera hand-over between the two apps (Release/Resume) was also developed with him.
+- **Fonts**: Exo 2, Chakra Petch and Orbitron, under the SIL Open Font License 1.1.
+- The app neither contains nor uses images or text from the stock app: the top-view car, icons and warnings are our own. It only reads from the car the data it needs to work (cameras, gear, steering, sensors, calibration).
+- MG, MG4 and SAIC are trademarks of their respective owners, mentioned only to indicate compatibility.
 
-## Uso dell'intelligenza artificiale
-Parti del codice, della documentazione e della grafica di Rivela 360 sono state sviluppate con l'aiuto dell'intelligenza artificiale (**Claude** di Anthropic). Le scelte, le prove in auto e la responsabilità del progetto restano dello sviluppatore.
+## Use of artificial intelligence
+Parts of Rivela 360's code, documentation and graphics were developed with AI assistance (**Claude** by Anthropic). Design decisions, in-car testing and responsibility for the project remain with the developer.
