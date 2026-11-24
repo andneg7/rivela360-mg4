@@ -41,7 +41,8 @@
 - **Vista 360° dall'alto** costruita dalle 4 telecamere, con l'auto disegnata al centro negli 8 colori MG4 (tetto nero o in tinta).
 - **Vista 3D** con il modello dell'auto: si gira con un dito, ha luci, frecce e ruote che sterzano. Tre cerchi a scelta: X-Power, Luxury/Trophy 18″ e Luxury MY22 17″.
 - **Linee dinamiche** che seguono il volante, in due stili (Classico e Moderno), con tacche a 1, 2 e 3 m.
-- **Sensori di parcheggio** con la distanza in cm, **zoom automatico** sull'ostacolo e avviso di **traffico trasversale** in retromarcia. Nel 3D diventano tende colorate.
+- **Sensori di parcheggio** con la distanza in cm, **zoom automatico** sull'ostacolo e avviso di **traffico trasversale** in retromarcia.
+- **Tende 3D dei sensori di parcheggio** nella telecamera posteriore e nella vista 3D: tende colorate vicino al paraurti, verdi, gialle o rosse secondo la distanza. Vedi a colpo d'occhio da che parte è l'ostacolo e quanto è vicino.
 - **Vista ruote**: quattro finestre raddrizzate accanto alle ruote, con una linea rossa sul bordo dell'auto, per avvicinarsi ai marciapiedi senza toccare gomme e cerchi.
 - **Modalità autolavaggio**: due fasce azzurre mostrano dove passeranno le ruote anteriori.
 - **Vista della telecamera Originale o Panoramica**, scelta per ogni telecamera: la Panoramica ha linee dritte e niente angoli neri.
@@ -62,9 +63,13 @@ Girando il volante, le **linee** si muovono e mostrano dove andrà l'auto. Le ta
 
 ![Retromarcia: vista dall'alto e telecamera posteriore con le linee e il sensore a 1,4 m](immagini/guida-retro-linee.jpg)
 
-Vicino al paraurti compaiono le **barre dei sensori**, con la distanza dell'ostacolo in centimetri: verdi, poi gialle, poi rosse. Quando un ostacolo è vicino, la vista dall'alto **si ingrandisce da sola** in quel punto («Zoom automatico sull'ostacolo»).
+Vicino al paraurti compaiono le **barre dei sensori**, con la distanza dell'ostacolo in centimetri: verdi, poi gialle, poi rosse. Nell'immagine della telecamera posteriore le barre diventano **tende 3D**. Quando un ostacolo è vicino, la vista dall'alto **si ingrandisce da sola** in quel punto («Zoom automatico sull'ostacolo»).
 
 ![Retromarcia: ostacolo a 45 cm, zoom automatico sulla vista dall'alto](immagini/guida-sensori-zoom.jpg)
+
+#### Tende 3D dei sensori di parcheggio
+> [!TIP]
+> Nella **telecamera posteriore** e nella **vista 3D** i sensori di parcheggio sono **tende 3D colorate** vicino al paraurti: **verdi** quando l'ostacolo è lontano, poi **gialle**, poi **rosse** quando è vicino. Senza bisogno di leggere i numeri, il colore e la posizione della tenda ti dicono subito **da che parte** è l'ostacolo e **quanto** manca.
 
 ### Cambiare vista
 - **Telecamera:** tocca la zona intorno all'auto che vuoi vedere: davanti, dietro o uno dei lati.
@@ -74,7 +79,7 @@ Vicino al paraurti compaiono le **barre dei sensori**, con la distanza dell'osta
 ### Vista 3D
 Il pulsante con il **cubo** apre la vista 3D: l'auto si vede da fuori e la giri con un dito per guardarla da ogni lato. Con due dita ti avvicini; da molto vicino l'auto diventa trasparente e si vede cosa c'è sotto.
 
-Il modello mostra luci, frecce e ruote che sterzano. I sensori diventano **tende colorate**, verdi, gialle o rosse secondo la distanza dall'ostacolo.
+Il modello mostra luci, frecce e ruote che sterzano. Anche qui ci sono le **tende 3D dei sensori**: giri l'auto e le vedi da ogni lato.
 
 ![Vista 3D in retromarcia: ostacolo a 30 cm, tende rosse e gialle](immagini/guida-3d-sensori.jpg)
 

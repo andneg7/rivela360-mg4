@@ -41,7 +41,8 @@
 - **360° top view** built from the 4 cameras, with the car drawn in the middle in the 8 MG4 colours (black or body-coloured roof).
 - **3D view** with a model of the car: turn it with one finger; it has lights, indicators and wheels that steer. Three wheel choices: X-Power, Luxury/Trophy 18″ and Luxury MY22 17″.
 - **Dynamic guide lines** that follow the steering wheel, in two styles (Classic and Modern), with marks at 1, 2 and 3 m.
-- **Parking sensors** with the distance in cm, **automatic zoom** on the obstacle and **cross-traffic** warning in reverse. In 3D they become coloured curtains.
+- **Parking sensors** with the distance in cm, **automatic zoom** on the obstacle and **cross-traffic** warning in reverse.
+- **3D parking sensor curtains** in the rear camera and in the 3D view: coloured curtains next to the bumper, green, yellow or red depending on the distance. You see at a glance which side the obstacle is on and how close it is.
 - **Wheel view**: four straightened windows next to the wheels, with a red line on the edge of the car, to get close to kerbs without touching tyres and rims.
 - **Car wash mode**: two blue bands show where the front wheels will go.
 - **Original or Panoramic camera view**, chosen per camera: Panoramic has straight lines and no black corners.
@@ -62,9 +63,13 @@ As you turn the steering wheel, the **lines** move and show where the car will g
 
 ![Reverse: top view and rear camera with the lines and the sensor at 1.4 m](immagini/guida-retro-linee.jpg)
 
-Near the bumper the **sensor bars** appear, with the obstacle distance in centimetres: green, then yellow, then red. When an obstacle is close, the top view **zooms in by itself** on that spot ("Automatic zoom on the obstacle").
+Near the bumper the **sensor bars** appear, with the obstacle distance in centimetres: green, then yellow, then red. In the rear camera image the bars become **3D curtains**. When an obstacle is close, the top view **zooms in by itself** on that spot ("Automatic zoom on the obstacle").
 
 ![Reverse: obstacle at 45 cm, automatic zoom on the top view](immagini/guida-sensori-zoom.jpg)
+
+#### 3D parking sensor curtains
+> [!TIP]
+> In the **rear camera** and in the **3D view** the parking sensors are **coloured 3D curtains** next to the bumper: **green** when the obstacle is far, then **yellow**, then **red** when it is close. Even without reading the numbers, the colour and position of the curtain tell you straight away **which side** the obstacle is on and **how much room** is left.
 
 ### Changing view
 - **Camera:** tap the area around the car you want to see: front, rear or one of the sides.
@@ -74,7 +79,7 @@ Near the bumper the **sensor bars** appear, with the obstacle distance in centim
 ### 3D view
 The **cube** button opens the 3D view: you see the car from outside and turn it with one finger to look at it from every side. Use two fingers to get closer; very close up, the car becomes transparent and you can see what is underneath.
 
-The model shows lights, indicators and wheels that steer. The sensors become **coloured curtains**, green, yellow or red depending on the distance to the obstacle.
+The model shows lights, indicators and wheels that steer. The **3D sensor curtains** are here too: turn the car and you see them from every side.
 
 ![3D view in reverse: obstacle at 30 cm, red and yellow curtains](immagini/guida-3d-sensori.jpg)
 
