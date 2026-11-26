@@ -10,12 +10,12 @@
       "notes": "Versione consigliata di Rivela 360 (beta 9, provata sulle auto dei tester): vista 360\u00b0, vista 3D, auto vista dall'alto negli 8 colori con tetto nero o in tinta, linee d'ingombro, sensori, traffico trasversale, autolavaggio, registrazione. Resta una versione sperimentale: leggi le avvertenze e usala con cautela."
     },
     "beta": {
-      "versionCode": 27001,
-      "versionName": "2.70 beta 1",
-      "file": "releases/Rivela360-v2.70-beta1.apk",
-      "sha256": "8cc02c8341559ecad1865b4f8f6c87035d318740a262be6686915d2bfac4e6bf",
-      "size": 3304693,
-      "notes": "2.70 beta 1: nuova vista Panoramica della telecamera e immagine pi\u00f9 nitida. Vista 3D con tre cerchi (X-Power con pinze arancioni, Luxury/Trophy 18\u2033, Luxury MY22 17\u2033), luce del modello regolabile e tende per linee e sensori. Vista ruote a quattro finestre che si ingrandiscono con un tocco, anche in marcia avanti. Linee dinamiche Classico e Moderno con tacche bianche. App aperta a mano che resta aperta, video senza pulsanti, spiegazioni animate. Versione sperimentale: usare con cautela."
+      "versionCode": 27003,
+      "versionName": "2.70 beta 3",
+      "file": "releases/Rivela360-v2.70-beta3.apk",
+      "sha256": "ec1bee291c4f60d873a25662ed0d9cf372a267ddadb66e1a19db80bc76bb208a",
+      "size": 3337461,
+      "notes": "2.70 beta 3: nuova auto trasparente (prova): sotto l'auto si vede l'asfalto visto un attimo prima dalle telecamere, solo fino a 7 km/h (torna sotto i 5). Invio facoltativo e anonimo del rapporto di diagnosi, spento di serie. Correzione: il tasto della vista ruote non tiene pi\u00f9 aperta l'app in P o N quando si \u00e8 aperta da sola. Versione sperimentale: usare con cautela."
     }
   }
 }
