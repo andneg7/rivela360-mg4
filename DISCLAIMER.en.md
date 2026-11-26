@@ -23,3 +23,7 @@ Read carefully before using the app. The same text appears on first launch of th
 9. **Law.** Unless mandatory consumer-protection rules apply, Italian law applies.
 
 By tapping "I have read and accept" you confirm that you have read and accepted these conditions.
+
+---
+
+**Sending diagnostic reports** (from 2.70 beta 3, *Settings › Diagnostics*). It is optional and off by default. If you turn it on, Rivela sends the developer a technical report without position, photos, videos, number plate, VIN or personal data, linked only to a random code. You can turn it off at any time; the full file always stays on your USB stick.

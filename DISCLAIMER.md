@@ -23,3 +23,7 @@ Leggi con attenzione prima di usare l'app. Lo stesso testo compare alla prima ap
 9. **Legge.** Salvo norme inderogabili a tutela dei consumatori, si applica la legge italiana.
 
 Toccando «Ho letto e accetto» confermi di aver letto e accettato queste condizioni.
+
+---
+
+**Invio dei rapporti di diagnosi** (dalla 2.70 beta 3, *Impostazioni › Diagnosi*). È facoltativo e spento di serie. Se lo attivi, Rivela manda allo sviluppatore un rapporto tecnico senza posizione, foto, video, targa, numero di telaio o dati personali, legato solo a un codice casuale. Puoi spegnerlo quando vuoi; il file completo resta sempre sulla tua chiavetta.
