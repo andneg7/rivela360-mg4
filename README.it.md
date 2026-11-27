@@ -15,7 +15,7 @@
 <a href="https://github.com/andneg7/rivela360-mg4/releases"><img alt="Download" src="https://img.shields.io/github/downloads/andneg7/rivela360-mg4/total?logo=github&label=download"></a>
 </p>
 
-<p align="center"><a href="https://www.paypal.me/anegri18"><img alt="Dona con PayPal" src="https://img.shields.io/badge/Dona-PayPal-0070ba?logo=paypal&logoColor=white&style=for-the-badge"></a><br><sub>Freeware: se ti è utile, puoi sostenere il progetto con una donazione libera e facoltativa.</sub></p>
+<p align="center"><a href="https://ko-fi.com/rivela360"><img alt="Offrimi un caffè su Ko-fi" src="https://img.shields.io/badge/☕%20Offrimi%20un%20caffè-Ko--fi-ff5e5b?logo=kofi&logoColor=white&style=for-the-badge"></a> <a href="https://www.paypal.me/anegri18"><img alt="Dona con PayPal" src="https://img.shields.io/badge/Dona-PayPal-0070ba?logo=paypal&logoColor=white&style=for-the-badge"></a><br><sub>Rivela 360 è gratuita e la faccio da solo, nel tempo libero. Se ti ha evitato un graffio, offrimi un caffè ☕</sub></p>
 
 **Vista 360° alternativa per MG4 Electric.** Un progetto indipendente e gratuito che sostituisce la vista 360° di serie con una vista più chiara, il modello 3D dell'auto e molte funzioni in più.
 
@@ -29,12 +29,12 @@
 
 > **Progetto personale, non ufficiale e non collegato a MG Motor né a SAIC.**
 >
-> 🔬 Provata soprattutto su **MG4 Electric Luxury MY23, unità FICM, firmware SWI68 R67, Android 9**.
+> 🔬 Provata soprattutto su **MG4 Electric Luxury MY23, unità FICM, firmware SWI68 R67 e SWI133, Android 9**.
 >
 > | Firmware | Stato |
 > |---|---|
 > | **SWI68 R67** | ✅ **Testato** |
-> | **SWI133** | ✅ **Funziona** (provato da un tester). Stessa base Android 9, stessa app 360 di serie, stessa firma di sistema |
+> | **SWI133** | ✅ **Testato** (da un tester). Stessa base Android 9, stessa app 360 di serie, stessa firma di sistema |
 > | Altri | ❓ Sconosciuto |
 
 ## Cosa fa
@@ -43,6 +43,7 @@
 - **Linee dinamiche** che seguono il volante, in due stili (Classico e Moderno), con tacche a 1, 2 e 3 m.
 - **Sensori di parcheggio** con la distanza in cm, **zoom automatico** sull'ostacolo e avviso di **traffico trasversale** in retromarcia.
 - **Tende 3D dei sensori di parcheggio** nella telecamera posteriore e nella vista 3D: tende colorate vicino al paraurti, verdi, gialle o rosse secondo la distanza. Vedi a colpo d'occhio da che parte è l'ostacolo e quanto è vicino.
+- **Auto trasparente** (prova): sotto l'auto si vede l'asfalto che le telecamere hanno ripreso un attimo prima, e l'auto diventa trasparente poco alla volta. Funziona fino a 7 km/h.
 - **Vista ruote**: quattro finestre raddrizzate accanto alle ruote, con una linea rossa sul bordo dell'auto, per avvicinarsi ai marciapiedi senza toccare gomme e cerchi.
 - **Modalità autolavaggio**: due fasce azzurre mostrano dove passeranno le ruote anteriori.
 - **Vista della telecamera Originale o Panoramica**, scelta per ogni telecamera: la Panoramica ha linee dritte e niente angoli neri.
@@ -86,6 +87,16 @@ Il modello mostra luci, frecce e ruote che sterzano. Anche qui ci sono le **tend
 Nelle impostazioni scegli il colore dell'auto e i cerchi, e il modello cambia subito:
 
 ![Vista 3D con l'auto arancione](immagini/guida-3d-colori.jpg)
+
+### Auto trasparente (prova)
+Normalmente sotto l'auto c'è una zona nera: nessuna telecamera la vede. Con l'**auto trasparente** l'app ricorda l'asfalto che le telecamere hanno visto un attimo prima e, mentre l'auto ci passa sopra, lo mostra sotto di lei. Così l'auto diventa trasparente poco alla volta e vedi le strisce, i tombini o il bordo del marciapiede anche quando sono sotto la scocca.
+
+![Auto trasparente spenta e accesa (illustrazione): con la funzione accesa si vedono il tombino e le strisce sotto l'auto](immagini/auto-trasparente-illustrazione.png)
+
+Funziona nella vista 360° e nella vista 3D. Si accende e si spegne con il pulsante sulla vista 360° (il terzo in alto a destra) oppure in Impostazioni › Vista 360° › Auto, dove la «i» la spiega con un'animazione. Va in pausa sopra i 7 km/h e riprende sotto i 5.
+
+> [!CAUTION]
+> È un **ricordo, non un'immagine dal vivo**: se qualcosa finisce sotto l'auto dopo (un sasso, un animale), **non si vede**. Non fidarti solo di questa vista.
 
 ### Vista ruote
 Il pulsante con il **cerchione** apre la vista ruote: immagini raddrizzate con una **linea rossa** lungo il bordo dell'auto. Serve per avvicinarsi al marciapiede senza toccare gomme e cerchi. Ogni finestra si chiude con la sua X; un tocco la **ingrandisce**, un altro la riporta piccola.
@@ -161,9 +172,9 @@ L'app controlla gli aggiornamenti da questa repository (Impostazioni › Aggiorn
 
 ## Freeware e donazioni
 **Rivela 360 è freeware**: si scarica e si usa gratis, senza pubblicità, senza funzioni a pagamento e senza registrazione. Non è open source (il codice non è pubblicato).
-Se ti è utile e vuoi sostenere il lavoro, puoi fare una **donazione libera e facoltativa** con PayPal. Non dà diritto a nulla in più: nessuna funzione extra, nessun supporto garantito, nessuna priorità.
+Se ti è utile e vuoi sostenere il lavoro, puoi **offrirmi un caffè** su Ko-fi (o con PayPal): è una donazione libera e facoltativa. Non dà diritto a nulla in più: nessuna funzione extra, nessun supporto garantito, nessuna priorità.
 
-<p align="center"><a href="https://www.paypal.me/anegri18"><img alt="Dona con PayPal" src="https://img.shields.io/badge/Dona-PayPal-0070ba?logo=paypal&logoColor=white&style=for-the-badge"></a></p>
+<p align="center"><a href="https://ko-fi.com/rivela360"><img alt="Offrimi un caffè su Ko-fi" src="https://img.shields.io/badge/☕%20Offrimi%20un%20caffè-Ko--fi-ff5e5b?logo=kofi&logoColor=white&style=for-the-badge"></a> <a href="https://www.paypal.me/anegri18"><img alt="Dona con PayPal" src="https://img.shields.io/badge/Dona-PayPal-0070ba?logo=paypal&logoColor=white&style=for-the-badge"></a></p>
 
 ## Licenza e crediti
 Testo completo delle condizioni: [**LICENSE**](LICENSE).

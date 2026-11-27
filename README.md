@@ -15,7 +15,7 @@
 <a href="https://github.com/andneg7/rivela360-mg4/releases"><img alt="Download" src="https://img.shields.io/github/downloads/andneg7/rivela360-mg4/total?logo=github&label=download"></a>
 </p>
 
-<p align="center"><a href="https://www.paypal.me/anegri18"><img alt="Donate with PayPal" src="https://img.shields.io/badge/Donate-PayPal-0070ba?logo=paypal&logoColor=white&style=for-the-badge"></a><br><sub>Freeware: if it is useful to you, you can support the project with a free, optional donation.</sub></p>
+<p align="center"><a href="https://ko-fi.com/rivela360"><img alt="Buy me a coffee on Ko-fi" src="https://img.shields.io/badge/☕%20Buy%20me%20a%20coffee-Ko--fi-ff5e5b?logo=kofi&logoColor=white&style=for-the-badge"></a> <a href="https://www.paypal.me/anegri18"><img alt="Donate with PayPal" src="https://img.shields.io/badge/Donate-PayPal-0070ba?logo=paypal&logoColor=white&style=for-the-badge"></a><br><sub>Rivela 360 is free and made by one person in his spare time. If it saved you a scratch, buy me a coffee ☕</sub></p>
 
 **An alternative 360° view for the MG4 Electric.** An independent, free project that replaces the stock 360° view with a clearer one, a 3D model of the car and many extra features.
 
@@ -29,12 +29,12 @@
 
 > **Personal, unofficial project, not affiliated with MG Motor or SAIC.**
 >
-> 🔬 Tested mainly on an **MG4 Electric Luxury MY23, FICM head unit, firmware SWI68 R67, Android 9**.
+> 🔬 Tested mainly on an **MG4 Electric Luxury MY23, FICM head unit, firmware SWI68 R67 and SWI133, Android 9**.
 >
 > | Firmware | Status |
 > |---|---|
 > | **SWI68 R67** | ✅ **Tested** |
-> | **SWI133** | ✅ **Works** (tried by a tester). Same Android 9 base, same stock 360 app, same system signature |
+> | **SWI133** | ✅ **Tested** (by a tester). Same Android 9 base, same stock 360 app, same system signature |
 > | Others | ❓ Unknown |
 
 ## What it does
@@ -43,6 +43,7 @@
 - **Dynamic guide lines** that follow the steering wheel, in two styles (Classic and Modern), with marks at 1, 2 and 3 m.
 - **Parking sensors** with the distance in cm, **automatic zoom** on the obstacle and **cross-traffic** warning in reverse.
 - **3D parking sensor curtains** in the rear camera and in the 3D view: coloured curtains next to the bumper, green, yellow or red depending on the distance. You see at a glance which side the obstacle is on and how close it is.
+- **Transparent car** (test): under the car you see the road the cameras saw a moment earlier, and the car becomes see-through little by little. Works up to 7 km/h.
 - **Wheel view**: four straightened windows next to the wheels, with a red line on the edge of the car, to get close to kerbs without touching tyres and rims.
 - **Car wash mode**: two blue bands show where the front wheels will go.
 - **Original or Panoramic camera view**, chosen per camera: Panoramic has straight lines and no black corners.
@@ -86,6 +87,16 @@ The model shows lights, indicators and wheels that steer. The **3D sensor curtai
 In the settings you choose the car colour and the wheels, and the model changes straight away:
 
 ![3D view with the orange car](immagini/guida-3d-colori.jpg)
+
+### Transparent car (test)
+Normally the area under the car is black: no camera can see it. With the **transparent car** the app remembers the road the cameras saw a moment earlier and, as the car drives over it, shows it underneath. The car becomes see-through little by little, and you see lines, drain covers or the kerb edge even when they are under the body.
+
+![Transparent car off and on (illustration): with it on, the drain cover and the lines under the car are visible](immagini/transparent-car-illustration.png)
+
+It works in the 360° view and in the 3D view. Turn it on or off with the button on the 360° view (third at top right) or in Settings › 360° view › Car, where the "i" explains it with an animation. It pauses above 7 km/h and comes back below 5.
+
+> [!CAUTION]
+> It is a **memory, not a live image**: anything that gets under the car later (a stone, an animal) is **not shown**. Never rely on this view alone.
 
 ### Wheel view
 The **rim** button opens the wheel view: straightened images with a **red line** along the edge of the car. It helps you get close to the kerb without touching tyres and rims. Each window closes with its own X; one tap **enlarges** it, another makes it small again.
@@ -161,9 +172,9 @@ The app checks for updates from this repository (Settings › Updates). The list
 
 ## Freeware and donations
 **Rivela 360 is freeware**: free to download and use, with no ads, no paid features and no sign-up. It is not open source (the code is not published).
-If it is useful to you and you want to support the work, you can make a **free, optional donation** with PayPal. It entitles you to nothing extra: no extra features, no guaranteed support, no priority.
+If it is useful to you and you want to support the work, you can **buy me a coffee** on Ko-fi (or via PayPal): it is a free, optional donation. It entitles you to nothing extra: no extra features, no guaranteed support, no priority.
 
-<p align="center"><a href="https://www.paypal.me/anegri18"><img alt="Donate with PayPal" src="https://img.shields.io/badge/Donate-PayPal-0070ba?logo=paypal&logoColor=white&style=for-the-badge"></a></p>
+<p align="center"><a href="https://ko-fi.com/rivela360"><img alt="Buy me a coffee on Ko-fi" src="https://img.shields.io/badge/☕%20Buy%20me%20a%20coffee-Ko--fi-ff5e5b?logo=kofi&logoColor=white&style=for-the-badge"></a> <a href="https://www.paypal.me/anegri18"><img alt="Donate with PayPal" src="https://img.shields.io/badge/Donate-PayPal-0070ba?logo=paypal&logoColor=white&style=for-the-badge"></a></p>
 
 ## License and credits
 Full text of the terms: [**LICENSE**](LICENSE).
